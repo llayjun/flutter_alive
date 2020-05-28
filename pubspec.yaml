@@ -1,0 +1,238 @@
+name: app
+description: A flutter boilerplate project created using MobX and Provider.
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# Read more about versioning at semver.org.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.2.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # 本地化
+  flutter_localizations:
+    sdk: flutter
+
+  # 轮播
+  flutter_swiper: ^1.0.6
+  
+  # 下拉刷新
+  pull_to_refresh: ^1.5.6
+
+  # 保存图片
+  image_gallery_saver: ^1.2.0
+
+  # 权限
+  permission_handler: ^3.2.2
+
+  # 获取app信息
+  package_info: ^0.4.0+2
+
+  # 获取图片
+  image_picker: ^0.6.1
+
+  # 缓存管理
+  flutter_cache_manager: ^1.1.1
+
+  # 裁剪图片
+  image_crop: ^0.3.1
+  image_cropper: ^1.1.0
+
+  # toast引入
+  fluttertoast: ^3.1.0
+
+  # 显示富文本
+  flutter_html: ^0.10.4
+
+  # 基础工具
+  common_utils: ^1.2.0
+
+  # 唤起其它应用（app）
+  url_launcher: ^5.1.2
+
+  # 触发安装（暂时没有用到，以后用于更新应用）
+  install_plugin: ^2.0.1
+
+  # 唤起应用商店以下载app
+  flutter_install_app_plugin: ^0.2.0
+
+  # 下载文件
+  flutter_downloader: ^1.2.1
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.2
+
+  # The following adds the shared pref as a dependency in your application
+  # do not upgrade, or will use android x!
+  shared_preferences: ^0.5.3
+
+  # A composable, Future-based library for making HTTP requests.
+  http: ^0.12.0+1
+
+  # This package provides internationalization and localization facilities, including message translation,
+  # plurals and genders, date/number formatting and parsing, and bidirectional text
+  intl: ^0.16.0
+
+  # The following adds the launcher icon support to your application.
+  # run below mentioned commands to generate launcher icons
+  # flutter packages get
+  # flutter packages pub run flutter_launcher_icons:main
+  flutter_launcher_icons: ^0.7.0
+
+  logger: ^0.7.0
+
+  # MobX is a library for reactively managing the state of your applications. Use the power of
+  # observables, actions, and reactions to supercharge your Dart and Flutter apps.
+  mobx: ^0.3.4
+  flutter_mobx: ^0.3.0+1
+  mobx_codegen: ^0.3.3+1
+
+  # An helper to easily exposes a value using InheritedWidget without having to write one.
+  provider: ^3.0.0
+
+  # String validation and sanitization for Dart. Dart 2-compatible version of validator
+  validators: ^2.0.0+1
+
+  # Provides Dart Build System builders for handling JSON.
+  json_serializable: ^3.2.5
+
+  # A powerful Http client for Dart
+  dio: 2.1.6
+
+  # A flexible widget for user notification.
+  flushbar: 1.6.0
+
+  # JSON序列变化
+  json_annotation: ^3.0.0
+
+  sembast: ^2.0.1
+
+  path_provider: ^1.2.0
+  path: ^1.6.2
+  
+  # flutter 微信插件
+  fluwx_no_pay: ^2.0.0
+
+  # webview 插件
+  webview_flutter: ^0.3.15+1
+
+  # 播放器
+  video_player: ^0.10.1+6
+  chewie: ^0.9.10
+  flutter_picker: ^1.1.3
+
+
+dependency_overrides:
+  analyzer: ^0.39.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  build_runner: ^1.3.0
+
+  # JSON序列化
+  json_serializable: ^3.2.5
+
+  inject_generator:
+    git:
+      url: https://github.com/google/inject.dart.git
+      path: package/inject_generator
+
+flutter_icons:
+  image_path: "assets/icons/ic_launcher.png"
+  android: true
+  ios: true
+
+
+# For information on the generic Dart part of this file, see the
+# following page: https://www.dartlang.org/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/json/shipping_company.json
+    
+    - assets/images/9daye.png
+    - assets/images/product-search-loading.gif
+    - assets/images/head_portrait_default.png
+
+    - assets/images/boot-1.png
+    - assets/images/boot-2.png
+    - assets/images/add-product.png
+    - assets/images/create-live.png
+    - assets/images/logodaye.png
+    - assets/images/fund_bg.png
+    - assets/images/product-empty.png
+    - assets/images/live-create-wx-code-check.png
+    - assets/images/product-sku-delete.png
+
+    - assets/images/2.0x/boot-1.png
+    - assets/images/2.0x/boot-2.png
+    - assets/images/2.0x/add-product.png
+    - assets/images/2.0x/create-live.png
+    - assets/images/2.0x/9daye-tv.png
+    - assets/images/2.0x/fund_bg.png
+    - assets/images/2.0x/product-empty.png
+    - assets/images/2.0x/live-create-wx-code-check.png
+    - assets/images/2.0x/product-sku-delete.png
+    - assets/images/icon_home_mine_black.png
+    - assets/images/icon_home_mine_red.png
+    - assets/images/icon_home_home_black.png
+    - assets/images/icon_home_home_red.png
+    - assets/images/icon_product_manager.png
+    - assets/images/icon_my_live.png
+    - assets/images/icon_create_live.png
+    - assets/images/icon_round_add.png
+    - assets/images/ic_record_play.png
+    - assets/images/hev_list.png
+    - assets/images/ver_list.png
+    - assets/images/icon_black_header.png
+    - assets/images/icon_red_time.png
+    - assets/images/icon_create_error.png
+    - assets/images/icon_record_package.png
+    - assets/images/icon_record_share.png
+    - assets/images/ic_pic_holder.png
+    - assets/images/icon_link_share.png
+    - assets/images/icon_pic_share.png
+    - assets/images/boardback.png
+    - assets/images/createlive.png
+    - assets/images/icon_red_location.png
+    - assets/images/icon_red_phone.png
+
+
+
+  fonts:
+    - family: IconFont
+      fonts:
+        - asset: assets/fonts/iconfont/iconfont.ttf
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.io/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.io/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.io/custom-fonts/#from-packages

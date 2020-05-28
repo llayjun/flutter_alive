@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/constrain_middle"
+    android:descendantFocusability="blocksDescendants"
+    android:layout_height="match_parent"
+    android:background="@color/color_50000000">
+
+    <com.ruffian.library.widget.RImageView
+        android:id="@+id/rt_big_pic"
+        android:layout_width="835pt"
+        android:layout_height="1238pt"
+        android:scaleType="centerCrop"
+        android:src="@color/color_FFFFFF"
+        app:corner_radius="23pt"
+        app:layout_constraintBottom_toTopOf="@+id/rt_save"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed">
+
+        <!--        <com.ruffian.library.widget.RImageView-->
+        <!--            android:id="@+id/rt_top_pic"-->
+        <!--            android:layout_width="0pt"-->
+        <!--            android:layout_height="835pt"-->
+        <!--            android:scaleType="centerCrop"-->
+        <!--            app:corner_radius_top_left="23pt"-->
+        <!--            app:corner_radius_top_right="23pt"-->
+        <!--            app:layout_constraintEnd_toEndOf="parent"-->
+        <!--            app:layout_constraintStart_toStartOf="parent"-->
+        <!--            app:layout_constraintTop_toTopOf="parent"-->
+        <!--            tools:src="@mipmap/ic_launcher" />-->
+
+        <!--        <ImageView-->
+        <!--            android:id="@+id/iv_live_time"-->
+        <!--            android:layout_width="464pt"-->
+        <!--            android:layout_height="58pt"-->
+        <!--            android:layout_marginStart="35pt"-->
+        <!--            android:layout_marginBottom="42pt"-->
+        <!--            android:src="@mipmap/ic_live_time"-->
+        <!--            app:layout_constraintBottom_toBottomOf="@+id/rt_top_pic"-->
+        <!--            app:layout_constraintStart_toStartOf="parent" />-->
+
+        <!--        <TextView-->
+        <!--            android:id="@+id/tv_live_time"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_marginEnd="15pt"-->
+        <!--            android:textColor="@color/color_FFFFFF"-->
+        <!--            android:textSize="32pt"-->
+        <!--            app:layout_constraintBottom_toBottomOf="@+id/iv_live_time"-->
+        <!--            app:layout_constraintEnd_toEndOf="@+id/iv_live_time"-->
+        <!--            app:layout_constraintTop_toTopOf="@id/iv_live_time"-->
+        <!--            tools:text="07月23日 19:00" />-->
+
+        <!--        <ImageView-->
+        <!--            android:id="@+id/iv_wechat_ma"-->
+        <!--            android:layout_width="274pt"-->
+        <!--            android:layout_height="274pt"-->
+        <!--            android:layout_marginEnd="40pt"-->
+        <!--            android:src="@mipmap/ic_wechat_ma"-->
+        <!--            app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--            app:layout_constraintEnd_toEndOf="parent"-->
+        <!--            app:layout_constraintTop_toBottomOf="@+id/rt_top_pic" />-->
+
+        <!--        <com.ruffian.library.widget.RImageView-->
+        <!--            android:id="@+id/ri_header"-->
+        <!--            android:layout_width="66pt"-->
+        <!--            android:layout_height="66pt"-->
+        <!--            android:layout_marginStart="40pt"-->
+        <!--            android:src="@mipmap/ic_default_share_head"-->
+        <!--            app:is_circle="true"-->
+        <!--            app:layout_constraintBottom_toBottomOf="@+id/iv_wechat_ma"-->
+        <!--            app:layout_constraintStart_toStartOf="parent" />-->
+
+        <!--        <TextView-->
+        <!--            android:id="@+id/tv_nick_name"-->
+        <!--            android:layout_width="0pt"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_marginStart="14pt"-->
+        <!--            android:layout_marginEnd="27pt"-->
+        <!--            android:ellipsize="end"-->
+        <!--            android:maxLines="2"-->
+        <!--            android:textColor="@color/color_434343"-->
+        <!--            android:textSize="40pt"-->
+        <!--            app:layout_constraintBottom_toBottomOf="@+id/ri_header"-->
+        <!--            app:layout_constraintEnd_toStartOf="@+id/iv_wechat_ma"-->
+        <!--            app:layout_constraintStart_toEndOf="@+id/ri_header"-->
+        <!--            app:layout_constraintTop_toTopOf="@+id/ri_header"-->
+        <!--            tools:text="用户**昵称博世120件实用工具爱车 一族专享" />-->
+
+        <!--        <TextView-->
+        <!--            android:id="@+id/tv_title"-->
+        <!--            android:layout_width="0pt"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_marginEnd="27pt"-->
+        <!--            android:ellipsize="end"-->
+        <!--            android:lineSpacingExtra="20pt"-->
+        <!--            android:maxLines="2"-->
+        <!--            android:textColor="@color/color_434343"-->
+        <!--            android:textSize="43pt"-->
+        <!--            app:layout_constraintBottom_toTopOf="@+id/ri_header"-->
+        <!--            app:layout_constraintEnd_toStartOf="@+id/iv_wechat_ma"-->
+        <!--            app:layout_constraintStart_toStartOf="@+id/ri_header"-->
+        <!--            app:layout_constraintTop_toBottomOf="@+id/rt_top_pic"-->
+        <!--            tools:text="博世120件实用工具爱车 一族专享博世120件实用工具爱车 一族专享" />-->
+
+    </com.ruffian.library.widget.RImageView>
+
+    <com.ruffian.library.widget.RTextView
+        android:id="@+id/rt_save"
+        android:layout_width="749pt"
+        android:layout_height="127pt"
+        android:layout_marginTop="86pt"
+        android:gravity="center"
+        android:text="保存海报"
+        android:textColor="@color/color_FFFFFF"
+        android:textSize="49pt"
+        app:background_normal="@color/color_F95259"
+        app:corner_radius="63pt"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rt_big_pic" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

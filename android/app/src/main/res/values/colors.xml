@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ucrop_color_widget_background">#F95259</color>
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="thumbGradient">#eeeeee</color>
+    <color name="thumbOnColor">#4CD864</color>
+    <color name="trackGradient">#888888</color>
+    <color name="trackOnColor">#4CD864</color>
+
+    <color name="background_blue">#2d44f4</color>
+
+    <color name="red">#ffff0000</color>
+    <color name="darker_gray">#aaa</color>
+    <color name="text_blue">#2d44f4</color>
+    <color name="white">#ffffffff</color>
+
+    <color name="yellow">#ffff00</color>
+    <color name="transparent">#50000000</color>
+    <color name="light_gray">#30000000</color>
+
+    <color name="text_green">#00c0fb</color>
+    <color name="text_black">#333333</color>
+
+    <!--聊天颜色-->
+    <color name="username0">#e21400</color>
+    <color name="username1">#91580f</color>
+    <color name="username2">#f8a700</color>
+    <color name="username3">#f78b00</color>
+    <color name="username4">#58dc00</color>
+    <color name="username5">#287b00</color>
+    <color name="username6">#a8f07a</color>
+    <color name="username7">#4ae8c4</color>
+    <color name="username8">#3b88eb</color>
+    <color name="username9">#3824aa</color>
+    <color name="username10">#a700ff</color>
+    <color name="username11">#d300e7</color>
+
+
+    <!--app-->
+    <color name="color_FFFFFF">#FFFFFF</color>
+    <color name="color_F95259">#F95259</color>
+    <color name="color_F63825">#F63825</color>
+    <color name="color_959595">#959595</color>
+    <color name="color_f97054">#f97054</color>
+    <color name="color_434343">#434343</color>
+    <color name="color_333333">#333333</color>
+    <color name="color_666666">#666666</color>
+    <color name="color_999999">#999999</color>
+    <color name="color_C2000000">#C2000000</color>
+    <color name="color_50000000">#50000000</color>
+    <color name="color_07020204">#07020204</color>
+    <color name="color_dbdbdb">#dbdbdb</color>
+    <color name="color_F4F4F4">#F4F4F4</color>
+</resources>

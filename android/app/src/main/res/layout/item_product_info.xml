@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/color_FFFFFF">
+
+    <com.ruffian.library.widget.RImageView
+        android:id="@+id/ri_header"
+        android:layout_width="230pt"
+        android:layout_height="230pt"
+        android:layout_marginStart="45pt"
+        android:layout_marginTop="45pt"
+        android:scaleType="centerCrop"
+        android:layout_marginBottom="45pt"
+        app:corner_radius="14pt"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:src="@mipmap/ic_pic_holder" />
+
+    <ImageView
+        android:id="@+id/iv_top_left"
+        android:layout_width="66pt"
+        android:layout_height="35pt"
+        android:src="@mipmap/ic_product_top_left"
+        app:layout_constraintStart_toStartOf="@+id/ri_header"
+        app:layout_constraintTop_toTopOf="@+id/ri_header" />
+
+    <TextView
+        android:id="@+id/tv_left_top_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/color_FFFFFF"
+        android:textSize="26pt"
+        app:layout_constraintBottom_toBottomOf="@+id/iv_top_left"
+        app:layout_constraintEnd_toEndOf="@+id/iv_top_left"
+        app:layout_constraintStart_toStartOf="@+id/iv_top_left"
+        app:layout_constraintTop_toTopOf="@+id/iv_top_left"
+        tools:text="11" />
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="0pt"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40pt"
+        android:layout_marginEnd="160pt"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:minWidth="0dp"
+        android:minHeight="0dp"
+        android:textColor="@color/color_333333"
+        android:textSize="43pt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/ri_header"
+        app:layout_constraintTop_toTopOf="@+id/ri_header"
+        tools:text="车叮咚MINI行车记录仪车叮咚MINI行车记录仪MINI行车记录仪车叮咚I行车记录仪车叮咚MINI行车记录仪MINI行车记录仪" />
+
+    <TextView
+        android:id="@+id/tv_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="0dp"
+        android:minHeight="0dp"
+        android:textColor="@color/color_999999"
+        android:textSize="35pt"
+        app:layout_constraintBottom_toTopOf="@+id/tv_price"
+        app:layout_constraintStart_toStartOf="@+id/tv_title"
+        app:layout_constraintTop_toBottomOf="@+id/tv_title"
+        tools:text="库存：99  销量：8" />
+
+    <TextView
+        android:id="@+id/tv_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="0dp"
+        android:minHeight="0dp"
+        android:textColor="@color/color_F63825"
+        android:textSize="40pt"
+        app:layout_constraintBottom_toBottomOf="@+id/ri_header"
+        app:layout_constraintStart_toStartOf="@+id/tv_title"
+        tools:text="¥888.0" />
+
+    <com.ruffian.library.widget.RTextView
+        android:id="@+id/rt_off"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="45pt"
+        android:drawablePadding="12pt"
+        android:gravity="center"
+        android:text="下架"
+        android:textColor="@color/color_666666"
+        android:textSize="43pt"
+        app:icon_height="43pt"
+        app:icon_src_normal="@mipmap/ic_down"
+        app:icon_width="53pt"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_price"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tv_price" />
+
+    <View
+        android:id="@+id/view_line"
+        android:layout_width="1pt"
+        android:layout_height="35pt"
+        android:layout_marginEnd="35pt"
+        android:background="@color/color_dbdbdb"
+        app:layout_constraintBottom_toBottomOf="@id/rt_off"
+        app:layout_constraintEnd_toStartOf="@+id/rt_off"
+        app:layout_constraintTop_toTopOf="@+id/rt_off" />
+
+    <com.ruffian.library.widget.RTextView
+        android:id="@+id/rt_show"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="35pt"
+        android:drawablePadding="12pt"
+        android:gravity="center"
+        tools:text="屏幕展示"
+        android:textColor="@color/color_666666"
+        android:textSize="43pt"
+        app:icon_height="39pt"
+        app:icon_src_normal="@mipmap/ic_eye_open"
+        app:icon_width="53pt"
+        app:layout_constraintBottom_toBottomOf="@+id/rt_off"
+        app:layout_constraintEnd_toStartOf="@+id/view_line"
+        app:layout_constraintTop_toTopOf="@+id/rt_off" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="LaunchTheme" parent="@android:style/Theme.Black.NoTitleBar">
+        <!-- Show a splash screen on the activity. Automatically removed when
+             Flutter draws its first frame -->
+        <item name="android:windowBackground">@drawable/launch_background</item>
+    </style>
+
+    <!--alive-->
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="dialog_animation">
+        <item name="android:windowEnterAnimation">@anim/anim_trans_from_bottom</item>
+        <item name="android:windowExitAnimation">@anim/anim_layout_bottom_out</item>
+    </style>
+
+    <style name="DialogStyle">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:cacheColorHint">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+    <style name="LogText">
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textSize">@dimen/font_size_28px</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">0dp</item>
+    </style>
+
+    <!--顶部弹出动画-->
+    <style name="PopupAnimation" mce_bogus="1" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/pop_show</item>
+        <item name="android:windowExitAnimation">@anim/pop_close</item>
+    </style>
+
+    <!--DialogFragment的底部弹出样式-->
+    <style name="BottomDialogFragment" parent="@android:style/Theme.Dialog">
+        <item name="android:windowNoTitle">true</item><!--dialog顶部默认自带一个title位置，要去掉-->
+        <item name="android:windowTitleStyle">@null</item><!--顶部title样式-->
+        <item name="android:windowBackground">@android:color/transparent</item><!--背景-->
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowAnimationStyle">@style/BottomDialog.AnimationStyle</item><!--动画-->
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+    </style>
+
+    <!--底部弹出动画-->
+    <style name="BottomDialog.AnimationStyle" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/slide_in_from_bottom</item>
+        <item name="android:windowExitAnimation">@anim/slide_out_to_bottom</item>
+    </style>
+
+    <!--Dialog的NoTitle样式-->
+    <style name="DialogNoTitleStyle" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item><!-- Dialog的windowFrame框为无 -->
+        <item name="android:windowIsFloating">true</item><!-- 是否漂现在activity上 -->
+        <item name="android:windowIsTranslucent">true</item><!-- 是否半透明 -->
+        <item name="android:windowNoTitle">true</item><!-- 是否有标题 -->
+        <item name="android:background">@null</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item><!-- 去除黑色边框的关键设置项 -->
+    </style>
+
+    <!-- 解决白屏问题 -->
+    <style name="AppThemeWithNoPreview" parent="Theme.AppCompat.Light.NoActionBar">
+        <!--为了解决跳转白屏问题-->
+        <item name="android:windowDisablePreview">true</item>
+    </style>
+
+    <!-- 自定义Dialog -->
+    <style name="Custom_Progress" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+</resources>

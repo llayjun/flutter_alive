@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.ruffian.library.widget.RImageView
+        android:id="@+id/iv_image"
+        android:layout_width="144pt"
+        android:layout_height="144pt"
+        android:padding="10pt"
+        android:scaleType="fitXY"
+        app:corner_radius="3pt"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:src="@mipmap/ic_launcher" />
+
+    <ImageView
+        android:id="@+id/iv_delete"
+        android:layout_width="50pt"
+        android:layout_height="50pt"
+        android:padding="5pt"
+        android:src="@mipmap/ic_red_delete"
+        app:layout_constraintCircle="@+id/iv_image"
+        app:layout_constraintCircleAngle="45"
+        app:layout_constraintCircleRadius="82pt"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

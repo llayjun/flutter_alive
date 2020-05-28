@@ -1,0 +1,4504 @@
+[
+    {
+        "tag": "A",
+        "list": [
+            {
+                "id": "114",
+                "name": "安鲜达",
+                "code": "exfresh",
+                "pinyin": "anxianda",
+                "firstChar": "A",
+                "sort": 0
+            },
+            {
+                "id": "150",
+                "name": "安迅物流",
+                "code": "anxl",
+                "pinyin": "anxunwuliu",
+                "firstChar": "A",
+                "sort": 0
+            },
+            {
+                "id": "169",
+                "name": "安能快递",
+                "code": "ane66",
+                "pinyin": "annengkuaidi",
+                "firstChar": "A",
+                "sort": 0
+            },
+            {
+                "id": "213",
+                "name": "安达速递",
+                "code": "adapost",
+                "pinyin": "andasudi",
+                "firstChar": "A",
+                "sort": 0
+            },
+            {
+                "id": "261",
+                "name": "澳世速递",
+                "code": "aus",
+                "pinyin": "aoshisudi",
+                "firstChar": "A",
+                "sort": 0
+            },
+            {
+                "id": "273",
+                "name": "奥地利(Austrian Post)",
+                "code": "austria",
+                "pinyin": "aodili(Austrian Post)",
+                "firstChar": "A",
+                "sort": 0
+            },
+            {
+                "id": "322",
+                "name": "Asendia USA",
+                "code": "asendiausa",
+                "pinyin": "Asendia USA",
+                "firstChar": "A",
+                "sort": 0
+            },
+            {
+                "id": "35",
+                "name": "澳世速递",
+                "code": "ausexpress",
+                "pinyin": "aoshisudi",
+                "firstChar": "A",
+                "sort": 0
+            },
+            {
+                "id": "356",
+                "name": "ADP国际快递",
+                "code": "adp",
+                "pinyin": "ADPguojikuaidi",
+                "firstChar": "A",
+                "sort": 0
+            },
+            {
+                "id": "358",
+                "name": "安捷物流",
+                "code": "anjie88",
+                "pinyin": "anjiewuliu",
+                "firstChar": "A",
+                "sort": 0
+            },
+            {
+                "id": "360",
+                "name": "澳速物流",
+                "code": "aosu",
+                "pinyin": "aosuwuliu",
+                "firstChar": "A",
+                "sort": 0
+            },
+            {
+                "id": "407",
+                "name": "阿曼(Oman Post)",
+                "code": "oman",
+                "pinyin": "aman(Oman Post)",
+                "firstChar": "A",
+                "sort": 0
+            },
+            {
+                "id": "441",
+                "name": "澳多多国际速递",
+                "code": "adodoxm",
+                "pinyin": "aoduoduoguojisudi",
+                "firstChar": "A",
+                "sort": 0
+            },
+            {
+                "id": "443",
+                "name": "阿富汗(Afghan Post)",
+                "code": "afghan",
+                "pinyin": "afuhan(Afghan Post)",
+                "firstChar": "A",
+                "sort": 0
+            },
+            {
+                "id": "449",
+                "name": "airpak expresss",
+                "code": "airpak",
+                "pinyin": "airpak expresss",
+                "firstChar": "A",
+                "sort": 0
+            },
+            {
+                "id": "450",
+                "name": "阿尔巴尼亚(Posta shqipatre)",
+                "code": "albania",
+                "pinyin": "aerbaniya(Posta shqipatre)",
+                "firstChar": "A",
+                "sort": 0
+            },
+            {
+                "id": "456",
+                "name": "爱尔兰(An Post)",
+                "code": "anposten",
+                "pinyin": "aierlan(An Post)",
+                "firstChar": "A",
+                "sort": 0
+            },
+            {
+                "id": "458",
+                "name": "艾瑞斯远",
+                "code": "ariesfar",
+                "pinyin": "airuisiyuan",
+                "firstChar": "A",
+                "sort": 0
+            },
+            {
+                "id": "460",
+                "name": "AUV国际快递",
+                "code": "auvexpress",
+                "pinyin": "AUVguojikuaidi",
+                "firstChar": "A",
+                "sort": 0
+            },
+            {
+                "id": "462",
+                "name": "阿塞拜疆EMS(EMS AzerExpressPost)",
+                "code": "azerbaijan",
+                "pinyin": "asaibaijiangEMS(EMS AzerExpressPost)",
+                "firstChar": "A",
+                "sort": 0
+            },
+            {
+                "id": "527",
+                "name": "阿根廷(Correo Argentina)",
+                "code": "correoargentino",
+                "pinyin": "agenting(Correo Argentina)",
+                "firstChar": "A",
+                "sort": 0
+            },
+            {
+                "id": "540",
+                "name": "澳行快递",
+                "code": "desworks",
+                "pinyin": "aoxingkuaidi",
+                "firstChar": "A",
+                "sort": 0
+            },
+            {
+                "id": "570",
+                "name": "艾菲尔国际速递",
+                "code": "eiffel",
+                "pinyin": "aifeierguojisudi",
+                "firstChar": "A",
+                "sort": 0
+            },
+            {
+                "id": "575",
+                "name": "澳州顺风快递",
+                "code": "emms",
+                "pinyin": "aozhoushunfengkuaidi",
+                "firstChar": "A",
+                "sort": 0
+            },
+            {
+                "id": "597",
+                "name": "澳洲新干线快递",
+                "code": "expressplus",
+                "pinyin": "aozhouxinganxiankuaidi",
+                "firstChar": "A",
+                "sort": 0
+            },
+            {
+                "id": "64",
+                "name": "安得物流",
+                "code": "annto",
+                "pinyin": "andewuliu",
+                "firstChar": "A",
+                "sort": 0
+            },
+            {
+                "id": "705",
+                "name": "艾姆勒",
+                "code": "imlb2c",
+                "pinyin": "aimulei",
+                "firstChar": "A",
+                "sort": 0
+            },
+            {
+                "id": "721",
+                "name": "澳速通国际速递",
+                "code": "jetexpressgroup",
+                "pinyin": "aosutongguojisudi",
+                "firstChar": "A",
+                "sort": 0
+            },
+            {
+                "id": "792",
+                "name": "澳洲迈速快递",
+                "code": "maxeedexpress",
+                "pinyin": "aozhoumaisukuaidi",
+                "firstChar": "A",
+                "sort": 0
+            },
+            {
+                "id": "826",
+                "name": "昂威物流",
+                "code": "onway",
+                "pinyin": "angweiwuliu",
+                "firstChar": "A",
+                "sort": 0
+            },
+            {
+                "id": "88",
+                "name": "澳洲飞跃物流",
+                "code": "rlgaus",
+                "pinyin": "aozhoufeiyuewuliu",
+                "firstChar": "A",
+                "sort": 0
+            }
+        ]
+    },
+    {
+        "tag": "B",
+        "list": [
+            {
+                "id": "120",
+                "name": "比利时（Bpost）",
+                "code": "bpost",
+                "pinyin": "bilishi（Bpost）",
+                "firstChar": "B",
+                "sort": 0
+            },
+            {
+                "id": "161",
+                "name": "百事亨通",
+                "code": "bsht",
+                "pinyin": "baishihengtong",
+                "firstChar": "B",
+                "sort": 0
+            },
+            {
+                "id": "18",
+                "name": "百世快运",
+                "code": "baishiwuliu",
+                "pinyin": "baishikuaiyun",
+                "firstChar": "B",
+                "sort": 0
+            },
+            {
+                "id": "243",
+                "name": "百腾物流",
+                "code": "baitengwuliu",
+                "pinyin": "baitengwuliu",
+                "firstChar": "B",
+                "sort": 0
+            },
+            {
+                "id": "262",
+                "name": "百福东方",
+                "code": "baifudongfang",
+                "pinyin": "baifudongfang",
+                "firstChar": "B",
+                "sort": 0
+            },
+            {
+                "id": "282",
+                "name": "八达通",
+                "code": "bdatong",
+                "pinyin": "badatong",
+                "firstChar": "B",
+                "sort": 0
+            },
+            {
+                "id": "325",
+                "name": "邦通国际",
+                "code": "comexpress",
+                "pinyin": "bangtongguoji",
+                "firstChar": "B",
+                "sort": 0
+            },
+            {
+                "id": "364",
+                "name": "奔腾物流",
+                "code": "benteng",
+                "pinyin": "bentengwuliu",
+                "firstChar": "B",
+                "sort": 0
+            },
+            {
+                "id": "463",
+                "name": "巴林(Bahrain Post)",
+                "code": "bahrain",
+                "pinyin": "balin(Bahrain Post)",
+                "firstChar": "B",
+                "sort": 0
+            },
+            {
+                "id": "466",
+                "name": "宝通快递",
+                "code": "baotongkd",
+                "pinyin": "baotongkuaidi",
+                "firstChar": "B",
+                "sort": 0
+            },
+            {
+                "id": "468",
+                "name": "巴巴多斯(Barbados Post)",
+                "code": "barbados",
+                "pinyin": "babaduosi(Barbados Post)",
+                "firstChar": "B",
+                "sort": 0
+            },
+            {
+                "id": "470",
+                "name": "佰麒快递",
+                "code": "beckygo",
+                "pinyin": "baiqikuaidi",
+                "firstChar": "B",
+                "sort": 0
+            },
+            {
+                "id": "473",
+                "name": "白俄罗斯(Belpochta)",
+                "code": "belpost",
+                "pinyin": "baieluosi(Belpochta)",
+                "firstChar": "B",
+                "sort": 0
+            },
+            {
+                "id": "476",
+                "name": "邦工快运",
+                "code": "bgky100",
+                "pinyin": "banggongkuaiyun",
+                "firstChar": "B",
+                "sort": 0
+            },
+            {
+                "id": "478",
+                "name": "北京EMS",
+                "code": "bjemstckj",
+                "pinyin": "beijingEMS",
+                "firstChar": "B",
+                "sort": 0
+            },
+            {
+                "id": "482",
+                "name": "标杆物流",
+                "code": "bmlchina",
+                "pinyin": "biaoganwuliu",
+                "firstChar": "B",
+                "sort": 0
+            },
+            {
+                "id": "484",
+                "name": "玻利维亚",
+                "code": "bolivia",
+                "pinyin": "boliweiya",
+                "firstChar": "B",
+                "sort": 0
+            },
+            {
+                "id": "486",
+                "name": "博茨瓦纳",
+                "code": "botspost",
+                "pinyin": "bociwana",
+                "firstChar": "B",
+                "sort": 0
+            },
+            {
+                "id": "488",
+                "name": "巴西(Brazil Post/Correios)",
+                "code": "brazilposten",
+                "pinyin": "baxi(Brazil Post/Correios)",
+                "firstChar": "B",
+                "sort": 0
+            },
+            {
+                "id": "5",
+                "name": "百世快递",
+                "code": "huitongkuaidi",
+                "pinyin": "baishikuaidi",
+                "firstChar": "B",
+                "sort": 0
+            },
+            {
+                "id": "576",
+                "name": "波兰小包(Poczta Polska)",
+                "code": "emonitoring",
+                "pinyin": "bolanxiaobao(Poczta Polska)",
+                "firstChar": "B",
+                "sort": 0
+            },
+            {
+                "id": "65",
+                "name": "斑马物流",
+                "code": "banma",
+                "pinyin": "banmawuliu",
+                "firstChar": "B",
+                "sort": 0
+            },
+            {
+                "id": "829",
+                "name": "波音速递",
+                "code": "overseaex",
+                "pinyin": "boyinsudi",
+                "firstChar": "B",
+                "sort": 0
+            },
+            {
+                "id": "831",
+                "name": "巴拉圭(Correo Paraguayo)",
+                "code": "paraguay",
+                "pinyin": "balagui(Correo Paraguayo)",
+                "firstChar": "B",
+                "sort": 0
+            },
+            {
+                "id": "844",
+                "name": "北极星快运",
+                "code": "polarisexpress",
+                "pinyin": "beijixingkuaiyun",
+                "firstChar": "B",
+                "sort": 0
+            }
+        ]
+    },
+    {
+        "tag": "C",
+        "list": [
+            {
+                "id": "102",
+                "name": "COE",
+                "code": "coe",
+                "pinyin": "COE",
+                "firstChar": "C",
+                "sort": 0
+            },
+            {
+                "id": "125",
+                "name": "长江国际速递",
+                "code": "changjiang",
+                "pinyin": "changjiangguojisudi",
+                "firstChar": "C",
+                "sort": 0
+            },
+            {
+                "id": "15",
+                "name": "程光快递",
+                "code": "flyway",
+                "pinyin": "chengguangkuaidi",
+                "firstChar": "C",
+                "sort": 0
+            },
+            {
+                "id": "264",
+                "name": "晟邦物流",
+                "code": "nanjingshengbang",
+                "pinyin": "chengbangwuliu",
+                "firstChar": "C",
+                "sort": 0
+            },
+            {
+                "id": "299",
+                "name": "成都立即送",
+                "code": "lijisong",
+                "pinyin": "chengdulijisong",
+                "firstChar": "C",
+                "sort": 0
+            },
+            {
+                "id": "368",
+                "name": "CDEK",
+                "code": "cdek",
+                "pinyin": "CDEK",
+                "firstChar": "C",
+                "sort": 0
+            },
+            {
+                "id": "370",
+                "name": "城通物流",
+                "code": "chengtong",
+                "pinyin": "chengtongwuliu",
+                "firstChar": "C",
+                "sort": 0
+            },
+            {
+                "id": "376",
+                "name": "CJ物流",
+                "code": "doortodoor",
+                "pinyin": "CJwuliu",
+                "firstChar": "C",
+                "sort": 0
+            },
+            {
+                "id": "496",
+                "name": "仓鼠快递",
+                "code": "cangspeed",
+                "pinyin": "cangshukuaidi",
+                "firstChar": "C",
+                "sort": 0
+            },
+            {
+                "id": "500",
+                "name": "钏博物流",
+                "code": "cbo56",
+                "pinyin": "chuanbowuliu",
+                "firstChar": "C",
+                "sort": 0
+            },
+            {
+                "id": "503",
+                "name": "昌宇国际",
+                "code": "changwooair",
+                "pinyin": "changyuguoji",
+                "firstChar": "C",
+                "sort": 0
+            },
+            {
+                "id": "505",
+                "name": "城际速递",
+                "code": "chengjisudi",
+                "pinyin": "chengjisudi",
+                "firstChar": "C",
+                "sort": 0
+            },
+            {
+                "id": "512",
+                "name": "CHS中环国际快递",
+                "code": "chszhonghuanguoji",
+                "pinyin": "CHSzhonghuanguojikuaidi",
+                "firstChar": "C",
+                "sort": 0
+            },
+            {
+                "id": "515",
+                "name": "城市映急",
+                "code": "city56",
+                "pinyin": "chengshiyingji",
+                "firstChar": "C",
+                "sort": 0
+            },
+            {
+                "id": "519",
+                "name": "CE易欧通国际速递",
+                "code": "cloudexpress",
+                "pinyin": "CEyioutongguojisudi",
+                "firstChar": "C",
+                "sort": 0
+            },
+            {
+                "id": "521",
+                "name": "C&C国际速递",
+                "code": "cncexp",
+                "pinyin": "C&Cguojisudi",
+                "firstChar": "C",
+                "sort": 0
+            },
+            {
+                "id": "523",
+                "name": "CNUP 中联邮",
+                "code": "cnup",
+                "pinyin": "CNUP zhonglianyou",
+                "firstChar": "C",
+                "sort": 0
+            },
+            {
+                "id": "832",
+                "name": "诚一物流",
+                "code": "parcelchina",
+                "pinyin": "chengyiwuliu",
+                "firstChar": "C",
+                "sort": 0
+            },
+            {
+                "id": "89",
+                "name": "程光快递",
+                "code": "chengguangkuaidi",
+                "pinyin": "chengguangkuaidi",
+                "firstChar": "C",
+                "sort": 0
+            },
+            {
+                "id": "926",
+                "name": "春风物流",
+                "code": "spring56",
+                "pinyin": "chunfengwuliu",
+                "firstChar": "C",
+                "sort": 0
+            }
+        ]
+    },
+    {
+        "tag": "D",
+        "list": [
+            {
+                "id": "107",
+                "name": "DPEX",
+                "code": "dpex",
+                "pinyin": "DPEX",
+                "firstChar": "D",
+                "sort": 0
+            },
+            {
+                "id": "12",
+                "name": "DHL-全球件",
+                "code": "dhlen",
+                "pinyin": "DHL-quanqiujian",
+                "firstChar": "D",
+                "sort": 0
+            },
+            {
+                "id": "136",
+                "name": "DPD UK",
+                "code": "dpduk",
+                "pinyin": "DPD UK",
+                "firstChar": "D",
+                "sort": 0
+            },
+            {
+                "id": "178",
+                "name": "德国(Deutsche Post)",
+                "code": "deutschepost",
+                "pinyin": "deguo(Deutsche Post)",
+                "firstChar": "D",
+                "sort": 0
+            },
+            {
+                "id": "20",
+                "name": "DHL-中国件",
+                "code": "dhl",
+                "pinyin": "DHL-zhongguojian",
+                "firstChar": "D",
+                "sort": 0
+            },
+            {
+                "id": "208",
+                "name": "DPD",
+                "code": "dpd",
+                "pinyin": "DPD",
+                "firstChar": "D",
+                "sort": 0
+            },
+            {
+                "id": "214",
+                "name": "丹鸟",
+                "code": "danniao",
+                "pinyin": "danniao",
+                "firstChar": "D",
+                "sort": 0
+            },
+            {
+                "id": "276",
+                "name": "大洋物流",
+                "code": "dayangwuliu",
+                "pinyin": "dayangwuliu",
+                "firstChar": "D",
+                "sort": 0
+            },
+            {
+                "id": "311",
+                "name": "DHL Benelux",
+                "code": "dhlbenelux",
+                "pinyin": "DHL Benelux",
+                "firstChar": "D",
+                "sort": 0
+            },
+            {
+                "id": "328",
+                "name": "德坤物流",
+                "code": "dekuncn",
+                "pinyin": "dekunwuliu",
+                "firstChar": "D",
+                "sort": 0
+            },
+            {
+                "id": "373",
+                "name": "DCS",
+                "code": "dcs",
+                "pinyin": "DCS",
+                "firstChar": "D",
+                "sort": 0
+            },
+            {
+                "id": "377",
+                "name": "DPD Germany",
+                "code": "dpdgermany",
+                "pinyin": "DPD Germany",
+                "firstChar": "D",
+                "sort": 0
+            },
+            {
+                "id": "446",
+                "name": "德方物流",
+                "code": "ahdf",
+                "pinyin": "defangwuliu",
+                "firstChar": "D",
+                "sort": 0
+            },
+            {
+                "id": "516",
+                "name": "大韩通运",
+                "code": "cjkoreaexpress",
+                "pinyin": "dahantongyun",
+                "firstChar": "D",
+                "sort": 0
+            },
+            {
+                "id": "536",
+                "name": "达速物流",
+                "code": "dasu",
+                "pinyin": "dasuwuliu",
+                "firstChar": "D",
+                "sort": 0
+            },
+            {
+                "id": "539",
+                "name": "Deltec Courier",
+                "code": "deltec",
+                "pinyin": "Deltec Courier",
+                "firstChar": "D",
+                "sort": 0
+            },
+            {
+                "id": "542",
+                "name": "达方物流",
+                "code": "dfpost",
+                "pinyin": "dafangwuliu",
+                "firstChar": "D",
+                "sort": 0
+            },
+            {
+                "id": "544",
+                "name": "DHL HK",
+                "code": "dhlhk",
+                "pinyin": "DHL HK",
+                "firstChar": "D",
+                "sort": 0
+            },
+            {
+                "id": "546",
+                "name": "DHL-波兰（DHL Poland）",
+                "code": "dhlpoland",
+                "pinyin": "DHL-bolan（DHL Poland）",
+                "firstChar": "D",
+                "sort": 0
+            },
+            {
+                "id": "548",
+                "name": "店通快递",
+                "code": "diantongkuaidi",
+                "pinyin": "diantongkuaidi",
+                "firstChar": "D",
+                "sort": 0
+            },
+            {
+                "id": "551",
+                "name": "叮咚快递",
+                "code": "dingdong",
+                "pinyin": "dingdongkuaidi",
+                "firstChar": "D",
+                "sort": 0
+            },
+            {
+                "id": "553",
+                "name": "递四方澳洲",
+                "code": "disifangau",
+                "pinyin": "disifangaozhou",
+                "firstChar": "D",
+                "sort": 0
+            },
+            {
+                "id": "556",
+                "name": "东瀚物流",
+                "code": "donghanwl",
+                "pinyin": "donghanwuliu",
+                "firstChar": "D",
+                "sort": 0
+            },
+            {
+                "id": "558",
+                "name": "DPD Poland",
+                "code": "dpdpoland",
+                "pinyin": "DPD Poland",
+                "firstChar": "D",
+                "sort": 0
+            },
+            {
+                "id": "560",
+                "name": "东方航空物流",
+                "code": "ealceair",
+                "pinyin": "dongfanghangkongwuliu",
+                "firstChar": "D",
+                "sort": 0
+            },
+            {
+                "id": "584",
+                "name": "东方汇",
+                "code": "est365",
+                "pinyin": "dongfanghui",
+                "firstChar": "D",
+                "sort": 0
+            },
+            {
+                "id": "639",
+                "name": "德尚国际速递",
+                "code": "gslexpress",
+                "pinyin": "deshangguojisudi",
+                "firstChar": "D",
+                "sort": 0
+            },
+            {
+                "id": "707",
+                "name": "多米尼加（INPOSDOM – Instituto Postal Dominicano）",
+                "code": "inposdom",
+                "pinyin": "duominijia（INPOSDOM – Instituto Postal Dominicano）",
+                "firstChar": "D",
+                "sort": 0
+            },
+            {
+                "id": "970",
+                "name": "德国优拜物流",
+                "code": "ubuy",
+                "pinyin": "deguoyoubaiwuliu",
+                "firstChar": "D",
+                "sort": 0
+            }
+        ]
+    },
+    {
+        "tag": "E",
+        "list": [
+            {
+                "id": "116",
+                "name": "俄罗斯邮政(Russian Post)",
+                "code": "pochta",
+                "pinyin": "eluosiyouzheng(Russian Post)",
+                "firstChar": "E",
+                "sort": 0
+            },
+            {
+                "id": "127",
+                "name": "EMS-英文",
+                "code": "emsen",
+                "pinyin": "EMS-yingwen",
+                "firstChar": "E",
+                "sort": 0
+            },
+            {
+                "id": "152",
+                "name": "e直运",
+                "code": "edtexpress",
+                "pinyin": "ezhiyun",
+                "firstChar": "E",
+                "sort": 0
+            },
+            {
+                "id": "284",
+                "name": "俄顺达",
+                "code": "eshunda",
+                "pinyin": "eshunda",
+                "firstChar": "E",
+                "sort": 0
+            },
+            {
+                "id": "330",
+                "name": "EFS Post（平安快递）",
+                "code": "efs",
+                "pinyin": "EFS Post（pingankuaidi）",
+                "firstChar": "E",
+                "sort": 0
+            },
+            {
+                "id": "562",
+                "name": "EC-Firstclass",
+                "code": "ecfirstclass",
+                "pinyin": "EC-Firstclass",
+                "firstChar": "E",
+                "sort": 0
+            },
+            {
+                "id": "565",
+                "name": "厄瓜多尔(Correos del Ecuador)",
+                "code": "ecuador",
+                "pinyin": "eguaduoer(Correos del Ecuador)",
+                "firstChar": "E",
+                "sort": 0
+            },
+            {
+                "id": "585",
+                "name": "Estafeta",
+                "code": "estafeta",
+                "pinyin": "Estafeta",
+                "firstChar": "E",
+                "sort": 0
+            },
+            {
+                "id": "590",
+                "name": "EU-EXPRESS",
+                "code": "euexpress",
+                "pinyin": "EU-EXPRESS",
+                "firstChar": "E",
+                "sort": 0
+            },
+            {
+                "id": "80",
+                "name": "EMS-国际件-英文",
+                "code": "emsinten",
+                "pinyin": "EMS-guojijian-yingwen",
+                "firstChar": "E",
+                "sort": 0
+            }
+        ]
+    },
+    {
+        "tag": "F",
+        "list": [
+            {
+                "id": "109",
+                "name": "疯狂快递",
+                "code": "crazyexpress",
+                "pinyin": "fengkuangkuaidi",
+                "firstChar": "F",
+                "sort": 0
+            },
+            {
+                "id": "135",
+                "name": "Fedex-国际件-中文",
+                "code": "fedexcn",
+                "pinyin": "Fedex-guojijian-zhongwen",
+                "firstChar": "F",
+                "sort": 0
+            },
+            {
+                "id": "159",
+                "name": "法国小包（colissimo）",
+                "code": "colissimo",
+                "pinyin": "faguoxiaobao（colissimo）",
+                "firstChar": "F",
+                "sort": 0
+            },
+            {
+                "id": "24",
+                "name": "FedEx-国际件",
+                "code": "fedex",
+                "pinyin": "FedEx-guojijian",
+                "firstChar": "F",
+                "sort": 0
+            },
+            {
+                "id": "250",
+                "name": "Fastway Ireland",
+                "code": "fastway",
+                "pinyin": "Fastway Ireland",
+                "firstChar": "F",
+                "sort": 0
+            },
+            {
+                "id": "291",
+                "name": "法国大包、EMS-法文（Chronopost France）",
+                "code": "chronopostfra",
+                "pinyin": "faguodabao、EMS-fawen（Chronopost France）",
+                "firstChar": "F",
+                "sort": 0
+            },
+            {
+                "id": "33",
+                "name": "富腾达国际货运",
+                "code": "ftd",
+                "pinyin": "futengdaguojihuoyun",
+                "firstChar": "F",
+                "sort": 0
+            },
+            {
+                "id": "332",
+                "name": "飞康达",
+                "code": "feikangda",
+                "pinyin": "feikangda",
+                "firstChar": "F",
+                "sort": 0
+            },
+            {
+                "id": "379",
+                "name": "飞豹快递",
+                "code": "feibaokuaidi",
+                "pinyin": "feibaokuaidi",
+                "firstChar": "F",
+                "sort": 0
+            },
+            {
+                "id": "381",
+                "name": "FQ狂派速递",
+                "code": "freakyquick",
+                "pinyin": "FQkuangpaisudi",
+                "firstChar": "F",
+                "sort": 0
+            },
+            {
+                "id": "47",
+                "name": "泛远国际物流",
+                "code": "farlogistis",
+                "pinyin": "fanyuanguojiwuliu",
+                "firstChar": "F",
+                "sort": 0
+            },
+            {
+                "id": "510",
+                "name": "法国大包、EMS-英文(Chronopost France)",
+                "code": "chronopostfren",
+                "pinyin": "faguodabao、EMS-yingwen(Chronopost France)",
+                "firstChar": "F",
+                "sort": 0
+            },
+            {
+                "id": "600",
+                "name": "凡宇快递",
+                "code": "fanyukuaidi",
+                "pinyin": "fanyukuaidi",
+                "firstChar": "F",
+                "sort": 0
+            },
+            {
+                "id": "603",
+                "name": "飞邦快递",
+                "code": "fbkd",
+                "pinyin": "feibangkuaidi",
+                "firstChar": "F",
+                "sort": 0
+            },
+            {
+                "id": "605",
+                "name": "FedEx-英国件",
+                "code": "fedexukcn",
+                "pinyin": "FedEx-yingguojian",
+                "firstChar": "F",
+                "sort": 0
+            },
+            {
+                "id": "607",
+                "name": "飞快达",
+                "code": "feikuaida",
+                "pinyin": "feikuaida",
+                "firstChar": "F",
+                "sort": 0
+            },
+            {
+                "id": "609",
+                "name": "凤凰快递",
+                "code": "fenghuangkuaidi",
+                "pinyin": "fenghuangkuaidi",
+                "firstChar": "F",
+                "sort": 0
+            },
+            {
+                "id": "611",
+                "name": "芬兰(Itella Posti Oy)",
+                "code": "finland",
+                "pinyin": "fenlan(Itella Posti Oy)",
+                "firstChar": "F",
+                "sort": 0
+            },
+            {
+                "id": "614",
+                "name": "FOX国际快递",
+                "code": "fox",
+                "pinyin": "FOXguojikuaidi",
+                "firstChar": "F",
+                "sort": 0
+            },
+            {
+                "id": "616",
+                "name": "飞云快递系统",
+                "code": "fyex",
+                "pinyin": "feiyunkuaidixitong",
+                "firstChar": "F",
+                "sort": 0
+            },
+            {
+                "id": "741",
+                "name": "番薯国际货运",
+                "code": "koali",
+                "pinyin": "fanshuguojihuoyun",
+                "firstChar": "F",
+                "sort": 0
+            },
+            {
+                "id": "980",
+                "name": "凡客配送（作废）",
+                "code": "vancl",
+                "pinyin": "fankepeisong（zuofei）",
+                "firstChar": "F",
+                "sort": 0
+            }
+        ]
+    },
+    {
+        "tag": "G",
+        "list": [
+            {
+                "id": "121",
+                "name": "光线速递",
+                "code": "gxwl",
+                "pinyin": "guangxiansudi",
+                "firstChar": "G",
+                "sort": 0
+            },
+            {
+                "id": "231",
+                "name": "广东速腾物流",
+                "code": "suteng",
+                "pinyin": "guangdongsutengwuliu",
+                "firstChar": "G",
+                "sort": 0
+            },
+            {
+                "id": "277",
+                "name": "GLS",
+                "code": "gls",
+                "pinyin": "GLS",
+                "firstChar": "G",
+                "sort": 0
+            },
+            {
+                "id": "384",
+                "name": "GSM",
+                "code": "gsm",
+                "pinyin": "GSM",
+                "firstChar": "G",
+                "sort": 0
+            },
+            {
+                "id": "528",
+                "name": "哥斯达黎加(Correos de Costa Rica)",
+                "code": "correos",
+                "pinyin": "gesidalijia(Correos de Costa Rica)",
+                "firstChar": "G",
+                "sort": 0
+            },
+            {
+                "id": "577",
+                "name": "高考通知书",
+                "code": "emsluqu",
+                "pinyin": "gaokaotongzhishu",
+                "firstChar": "G",
+                "sort": 0
+            },
+            {
+                "id": "618",
+                "name": "高铁快运",
+                "code": "gaotieex",
+                "pinyin": "gaotiekuaiyun",
+                "firstChar": "G",
+                "sort": 0
+            },
+            {
+                "id": "620",
+                "name": "Gati-英文",
+                "code": "gatien",
+                "pinyin": "Gati-yingwen",
+                "firstChar": "G",
+                "sort": 0
+            },
+            {
+                "id": "623",
+                "name": "广东诚通物流",
+                "code": "gdct56",
+                "pinyin": "guangdongchengtongwuliu",
+                "firstChar": "G",
+                "sort": 0
+            },
+            {
+                "id": "627",
+                "name": "格鲁吉亚(Georgian Pos）",
+                "code": "georgianpost",
+                "pinyin": "gelujiya(Georgian Pos）",
+                "firstChar": "G",
+                "sort": 0
+            },
+            {
+                "id": "631",
+                "name": "冠捷物流 ",
+                "code": "gjwl",
+                "pinyin": "guanjiewuliu ",
+                "firstChar": "G",
+                "sort": 0
+            },
+            {
+                "id": "634",
+                "name": "共速达",
+                "code": "gongsuda",
+                "pinyin": "gongsuda",
+                "firstChar": "G",
+                "sort": 0
+            },
+            {
+                "id": "638",
+                "name": "哥士传奇速递",
+                "code": "gscq365",
+                "pinyin": "geshichuanqisudi",
+                "firstChar": "G",
+                "sort": 0
+            },
+            {
+                "id": "642",
+                "name": "广通速递",
+                "code": "gtongsudi",
+                "pinyin": "guangtongsudi",
+                "firstChar": "G",
+                "sort": 0
+            },
+            {
+                "id": "644",
+                "name": "广东通路",
+                "code": "guangdongtonglu",
+                "pinyin": "guangdongtonglu",
+                "firstChar": "G",
+                "sort": 0
+            },
+            {
+                "id": "646",
+                "name": "国送快运",
+                "code": "guosong",
+                "pinyin": "guosongkuaiyun",
+                "firstChar": "G",
+                "sort": 0
+            },
+            {
+                "id": "671",
+                "name": "共联配",
+                "code": "hlpgyl",
+                "pinyin": "gonglianpei",
+                "firstChar": "G",
+                "sort": 0
+            },
+            {
+                "id": "94",
+                "name": "港快速递",
+                "code": "gdkd",
+                "pinyin": "gangkuaisudi",
+                "firstChar": "G",
+                "sort": 0
+            }
+        ]
+    },
+    {
+        "tag": "H",
+        "list": [
+            {
+                "id": "112",
+                "name": "宏递快运",
+                "code": "hd",
+                "pinyin": "hongdikuaiyun",
+                "firstChar": "H",
+                "sort": 0
+            },
+            {
+                "id": "160",
+                "name": "黄马甲",
+                "code": "huangmajia",
+                "pinyin": "huangmajia",
+                "firstChar": "H",
+                "sort": 0
+            },
+            {
+                "id": "175",
+                "name": "好来运",
+                "code": "hlyex",
+                "pinyin": "haolaiyun",
+                "firstChar": "H",
+                "sort": 0
+            },
+            {
+                "id": "205",
+                "name": "合众速递(UCS）",
+                "code": "ucs",
+                "pinyin": "hezhongsudi(UCS）",
+                "firstChar": "H",
+                "sort": 0
+            },
+            {
+                "id": "217",
+                "name": "荷兰速递(Nederland Post)",
+                "code": "nederlandpost",
+                "pinyin": "helansudi(Nederland Post)",
+                "firstChar": "H",
+                "sort": 0
+            },
+            {
+                "id": "256",
+                "name": "汇通天下物流",
+                "code": "httx56",
+                "pinyin": "huitongtianxiawuliu",
+                "firstChar": "H",
+                "sort": 0
+            },
+            {
+                "id": "258",
+                "name": "荷兰包裹(PostNL International Parcels)",
+                "code": "postnlpacle",
+                "pinyin": "helanbaoguo(PostNL International Parcels)",
+                "firstChar": "H",
+                "sort": 0
+            },
+            {
+                "id": "288",
+                "name": "華信物流WTO",
+                "code": "logistics",
+                "pinyin": "huaxinwuliuWTO",
+                "firstChar": "H",
+                "sort": 0
+            },
+            {
+                "id": "296",
+                "name": "黑猫速运",
+                "code": "heimao56",
+                "pinyin": "heimaosuyun",
+                "firstChar": "H",
+                "sort": 0
+            },
+            {
+                "id": "313",
+                "name": "鸿泰物流",
+                "code": "hnht56",
+                "pinyin": "hongtaiwuliu",
+                "firstChar": "H",
+                "sort": 0
+            },
+            {
+                "id": "385",
+                "name": "海红网送",
+                "code": "haihongwangsong",
+                "pinyin": "haihongwangsong",
+                "firstChar": "H",
+                "sort": 0
+            },
+            {
+                "id": "395",
+                "name": "韩国邮政",
+                "code": "koreapostcn",
+                "pinyin": "hanguoyouzheng",
+                "firstChar": "H",
+                "sort": 0
+            },
+            {
+                "id": "448",
+                "name": "航空快递",
+                "code": "airgtc",
+                "pinyin": "hangkongkuaidi",
+                "firstChar": "H",
+                "sort": 0
+            },
+            {
+                "id": "612",
+                "name": "花瓣转运",
+                "code": "flowerkd",
+                "pinyin": "huabanzhuanyun",
+                "firstChar": "H",
+                "sort": 0
+            },
+            {
+                "id": "647",
+                "name": "宏观国际快递",
+                "code": "gvpexpress",
+                "pinyin": "hongguanguojikuaidi",
+                "firstChar": "H",
+                "sort": 0
+            },
+            {
+                "id": "650",
+                "name": "海盟速递",
+                "code": "haimengsudi",
+                "pinyin": "haimengsudi",
+                "firstChar": "H",
+                "sort": 0
+            },
+            {
+                "id": "652",
+                "name": "海外环球",
+                "code": "haiwaihuanqiu",
+                "pinyin": "haiwaihuanqiu",
+                "firstChar": "H",
+                "sort": 0
+            },
+            {
+                "id": "654",
+                "name": "汉邦国际速递",
+                "code": "handboy",
+                "pinyin": "hanbangguojisudi",
+                "firstChar": "H",
+                "sort": 0
+            },
+            {
+                "id": "656",
+                "name": "昊盛物流",
+                "code": "haoshengwuliu",
+                "pinyin": "haoshengwuliu",
+                "firstChar": "H",
+                "sort": 0
+            },
+            {
+                "id": "660",
+                "name": "恒瑞物流",
+                "code": "hengrui56",
+                "pinyin": "hengruiwuliu",
+                "firstChar": "H",
+                "sort": 0
+            },
+            {
+                "id": "662",
+                "name": "环国运物流",
+                "code": "hgy56",
+                "pinyin": "huanguoyunwuliu",
+                "firstChar": "H",
+                "sort": 0
+            },
+            {
+                "id": "664",
+                "name": "Highsince",
+                "code": "highsince",
+                "pinyin": "Highsince",
+                "firstChar": "H",
+                "sort": 0
+            },
+            {
+                "id": "666",
+                "name": "海派通",
+                "code": "hipito",
+                "pinyin": "haipaitong",
+                "firstChar": "H",
+                "sort": 0
+            },
+            {
+                "id": "668",
+                "name": "猴急送",
+                "code": "hjs",
+                "pinyin": "houjisong",
+                "firstChar": "H",
+                "sort": 0
+            },
+            {
+                "id": "672",
+                "name": "海联快递",
+                "code": "hltop",
+                "pinyin": "hailiankuaidi",
+                "firstChar": "H",
+                "sort": 0
+            },
+            {
+                "id": "675",
+                "name": "河南全速通",
+                "code": "hnqst",
+                "pinyin": "henanquansutong",
+                "firstChar": "H",
+                "sort": 0
+            },
+            {
+                "id": "678",
+                "name": "宏捷国际物流",
+                "code": "hongjie",
+                "pinyin": "hongjieguojiwuliu",
+                "firstChar": "H",
+                "sort": 0
+            },
+            {
+                "id": "680",
+                "name": "环球通达 ",
+                "code": "hqtd",
+                "pinyin": "huanqiutongda ",
+                "firstChar": "H",
+                "sort": 0
+            },
+            {
+                "id": "685",
+                "name": "海淘物流",
+                "code": "ht22",
+                "pinyin": "haitaowuliu",
+                "firstChar": "H",
+                "sort": 0
+            },
+            {
+                "id": "687",
+                "name": "华通务达物流",
+                "code": "htwd",
+                "pinyin": "huatongwudawuliu",
+                "firstChar": "H",
+                "sort": 0
+            },
+            {
+                "id": "689",
+                "name": "环东物流",
+                "code": "huandonglg",
+                "pinyin": "huandongwuliu",
+                "firstChar": "H",
+                "sort": 0
+            },
+            {
+                "id": "691",
+                "name": "辉联物流",
+                "code": "huilian",
+                "pinyin": "huilianwuliu",
+                "firstChar": "H",
+                "sort": 0
+            },
+            {
+                "id": "695",
+                "name": "鸿远物流",
+                "code": "hyeship",
+                "pinyin": "hongyuanwuliu",
+                "firstChar": "H",
+                "sort": 0
+            },
+            {
+                "id": "739",
+                "name": "哈萨克斯坦(Kazpost)",
+                "code": "kazpost",
+                "pinyin": "hasakesitan(Kazpost)",
+                "firstChar": "H",
+                "sort": 0
+            },
+            {
+                "id": "775",
+                "name": "恒通快递",
+                "code": "lqht",
+                "pinyin": "hengtongkuaidi",
+                "firstChar": "H",
+                "sort": 0
+            },
+            {
+                "id": "811",
+                "name": "红马速递",
+                "code": "nedahm",
+                "pinyin": "hongmasudi",
+                "firstChar": "H",
+                "sort": 0
+            },
+            {
+                "id": "83",
+                "name": "恒路物流",
+                "code": "hengluwuliu",
+                "pinyin": "hengluwuliu",
+                "firstChar": "H",
+                "sort": 0
+            },
+            {
+                "id": "849",
+                "name": "荷兰邮政-中国件",
+                "code": "postnlchina",
+                "pinyin": "helanyouzheng-zhongguojian",
+                "firstChar": "H",
+                "sort": 0
+            },
+            {
+                "id": "948",
+                "name": "黑猫宅急便",
+                "code": "tcat",
+                "pinyin": "heimaozhaijibian",
+                "firstChar": "H",
+                "sort": 0
+            }
+        ]
+    },
+    {
+        "tag": "I",
+        "list": [
+            {
+                "id": "702",
+                "name": "iExpress",
+                "code": "iexpress",
+                "pinyin": "iExpress",
+                "firstChar": "I",
+                "sort": 0
+            },
+            {
+                "id": "708",
+                "name": "Interlink Express",
+                "code": "interlink",
+                "pinyin": "Interlink Express",
+                "firstChar": "I",
+                "sort": 0
+            },
+            {
+                "id": "890",
+                "name": "International Seur",
+                "code": "seur",
+                "pinyin": "International Seur",
+                "firstChar": "I",
+                "sort": 0
+            }
+        ]
+    },
+    {
+        "tag": "J",
+        "list": [
+            {
+                "id": "122",
+                "name": "加运美",
+                "code": "jiayunmeiwuliu",
+                "pinyin": "jiayunmei",
+                "firstChar": "J",
+                "sort": 0
+            },
+            {
+                "id": "138",
+                "name": "家家通快递",
+                "code": "newsway",
+                "pinyin": "jiajiatongkuaidi",
+                "firstChar": "J",
+                "sort": 0
+            },
+            {
+                "id": "170",
+                "name": "加运美速递",
+                "code": "jym56",
+                "pinyin": "jiayunmeisudi",
+                "firstChar": "J",
+                "sort": 0
+            },
+            {
+                "id": "201",
+                "name": "嘉里大荣物流",
+                "code": "kerrytj",
+                "pinyin": "jialidarongwuliu",
+                "firstChar": "J",
+                "sort": 0
+            },
+            {
+                "id": "226",
+                "name": "嘉里大通",
+                "code": "jialidatong",
+                "pinyin": "jialidatong",
+                "firstChar": "J",
+                "sort": 0
+            },
+            {
+                "id": "237",
+                "name": "锦程快递",
+                "code": "hrex",
+                "pinyin": "jinchengkuaidi",
+                "firstChar": "J",
+                "sort": 0
+            },
+            {
+                "id": "287",
+                "name": "金岸物流",
+                "code": "jinan",
+                "pinyin": "jinanwuliu",
+                "firstChar": "J",
+                "sort": 0
+            },
+            {
+                "id": "298",
+                "name": "金大物流",
+                "code": "jindawuliu",
+                "pinyin": "jindawuliu",
+                "firstChar": "J",
+                "sort": 0
+            },
+            {
+                "id": "337",
+                "name": "加州猫速递",
+                "code": "jiazhoumao",
+                "pinyin": "jiazhoumaosudi",
+                "firstChar": "J",
+                "sort": 0
+            },
+            {
+                "id": "339",
+                "name": "骏绅物流",
+                "code": "jsexpress",
+                "pinyin": "junshenwuliu",
+                "firstChar": "J",
+                "sort": 0
+            },
+            {
+                "id": "390",
+                "name": "景顺物流",
+                "code": "jingshun",
+                "pinyin": "jingshunwuliu",
+                "firstChar": "J",
+                "sort": 0
+            },
+            {
+                "id": "394",
+                "name": "柬埔寨中通",
+                "code": "khzto",
+                "pinyin": "jianpuzhaizhongtong",
+                "firstChar": "J",
+                "sort": 0
+            },
+            {
+                "id": "501",
+                "name": "捷克（?eská po?ta）",
+                "code": "ceskaposta",
+                "pinyin": "jieke（?eská po?ta）",
+                "firstChar": "J",
+                "sort": 0
+            },
+            {
+                "id": "55",
+                "name": "九曳供应链",
+                "code": "jiuyescm",
+                "pinyin": "jiuyegongyinglian",
+                "firstChar": "J",
+                "sort": 0
+            },
+            {
+                "id": "676",
+                "name": "居家通",
+                "code": "homexpress",
+                "pinyin": "jujiatong",
+                "firstChar": "J",
+                "sort": 0
+            },
+            {
+                "id": "715",
+                "name": "jcex",
+                "code": "jcex",
+                "pinyin": "jcex",
+                "firstChar": "J",
+                "sort": 0
+            },
+            {
+                "id": "717",
+                "name": "骏达快递",
+                "code": "jdexpressusa",
+                "pinyin": "jundakuaidi",
+                "firstChar": "J",
+                "sort": 0
+            },
+            {
+                "id": "719",
+                "name": "急递",
+                "code": "jdpplus",
+                "pinyin": "jidi",
+                "firstChar": "J",
+                "sort": 0
+            },
+            {
+                "id": "723",
+                "name": "佳家通货运",
+                "code": "jiajiatong56",
+                "pinyin": "jiajiatonghuoyun",
+                "firstChar": "J",
+                "sort": 0
+            },
+            {
+                "id": "725",
+                "name": "捷邦物流",
+                "code": "jieborne",
+                "pinyin": "jiebangwuliu",
+                "firstChar": "J",
+                "sort": 0
+            },
+            {
+                "id": "727",
+                "name": "锦程物流",
+                "code": "jinchengwuliu",
+                "pinyin": "jinchengwuliu",
+                "firstChar": "J",
+                "sort": 0
+            },
+            {
+                "id": "729",
+                "name": "九宫物流",
+                "code": "jiugong",
+                "pinyin": "jiugongwuliu",
+                "firstChar": "J",
+                "sort": 0
+            },
+            {
+                "id": "731",
+                "name": "吉祥邮（澳洲）",
+                "code": "jixiangyouau",
+                "pinyin": "jixiangyou（aozhou）",
+                "firstChar": "J",
+                "sort": 0
+            },
+            {
+                "id": "734",
+                "name": "骏丰国际速递",
+                "code": "junfengguoji",
+                "pinyin": "junfengguojisudi",
+                "firstChar": "J",
+                "sort": 0
+            },
+            {
+                "id": "736",
+                "name": "聚中大",
+                "code": "juzhongda",
+                "pinyin": "juzhongda",
+                "firstChar": "J",
+                "sort": 0
+            },
+            {
+                "id": "791",
+                "name": "今枫国际快运",
+                "code": "mapleexpress",
+                "pinyin": "jinfengguojikuaiyun",
+                "firstChar": "J",
+                "sort": 0
+            },
+            {
+                "id": "82",
+                "name": "极地快递",
+                "code": "polarexpress",
+                "pinyin": "jidikuaidi",
+                "firstChar": "J",
+                "sort": 0
+            },
+            {
+                "id": "86",
+                "name": "京广速递",
+                "code": "jinguangsudikuaijian",
+                "pinyin": "jingguangsudi",
+                "firstChar": "J",
+                "sort": 0
+            }
+        ]
+    },
+    {
+        "tag": "K",
+        "list": [
+            {
+                "id": "153",
+                "name": "快捷速递",
+                "code": "kuaijiesudi",
+                "pinyin": "kuaijiesudi",
+                "firstChar": "K",
+                "sort": 0
+            },
+            {
+                "id": "340",
+                "name": "快服务",
+                "code": "kfwnet",
+                "pinyin": "kuaifuwu",
+                "firstChar": "K",
+                "sort": 0
+            },
+            {
+                "id": "38",
+                "name": "跨越速运",
+                "code": "kuayue",
+                "pinyin": "kuayuesuyun",
+                "firstChar": "K",
+                "sort": 0
+            },
+            {
+                "id": "393",
+                "name": "科捷物流",
+                "code": "kejie",
+                "pinyin": "kejiewuliu",
+                "firstChar": "K",
+                "sort": 0
+            },
+            {
+                "id": "495",
+                "name": "喀麦隆(CAMPOST)",
+                "code": "cameroon",
+                "pinyin": "kamailong(CAMPOST)",
+                "firstChar": "K",
+                "sort": 0
+            },
+            {
+                "id": "658",
+                "name": "开心快递",
+                "code": "happylink",
+                "pinyin": "kaixinkuaidi",
+                "firstChar": "K",
+                "sort": 0
+            },
+            {
+                "id": "737",
+                "name": "康力物流",
+                "code": "kangliwuliu",
+                "pinyin": "kangliwuliu",
+                "firstChar": "K",
+                "sort": 0
+            },
+            {
+                "id": "740",
+                "name": "肯尼亚(POSTA KENYA)",
+                "code": "kenya",
+                "pinyin": "kenniya(POSTA KENYA)",
+                "firstChar": "K",
+                "sort": 0
+            },
+            {
+                "id": "745",
+                "name": "快8速运",
+                "code": "kuai8",
+                "pinyin": "kuai8suyun",
+                "firstChar": "K",
+                "sort": 0
+            },
+            {
+                "id": "747",
+                "name": "快淘快递",
+                "code": "kuaitao",
+                "pinyin": "kuaitaokuaidi",
+                "firstChar": "K",
+                "sort": 0
+            },
+            {
+                "id": "751",
+                "name": "跨跃国际",
+                "code": "kyue",
+                "pinyin": "kuayueguoji",
+                "firstChar": "K",
+                "sort": 0
+            }
+        ]
+    },
+    {
+        "tag": "L",
+        "list": [
+            {
+                "id": "158",
+                "name": "陆本速递 LUBEN EXPRESS",
+                "code": "luben",
+                "pinyin": "lubensudi LUBEN EXPRESS",
+                "firstChar": "L",
+                "sort": 0
+            },
+            {
+                "id": "188",
+                "name": "联合快递",
+                "code": "gslhkd",
+                "pinyin": "lianhekuaidi",
+                "firstChar": "L",
+                "sort": 0
+            },
+            {
+                "id": "315",
+                "name": "蓝天快递",
+                "code": "lantiankuaidi",
+                "pinyin": "lantiankuaidi",
+                "firstChar": "L",
+                "sort": 0
+            },
+            {
+                "id": "396",
+                "name": "Landmark Global",
+                "code": "landmarkglobal",
+                "pinyin": "Landmark Global",
+                "firstChar": "L",
+                "sort": 0
+            },
+            {
+                "id": "398",
+                "name": "乐天速递",
+                "code": "ltexp",
+                "pinyin": "letiansudi",
+                "firstChar": "L",
+                "sort": 0
+            },
+            {
+                "id": "53",
+                "name": "龙邦速递",
+                "code": "longbanwuliu",
+                "pinyin": "longbangsudi",
+                "firstChar": "L",
+                "sort": 0
+            },
+            {
+                "id": "583",
+                "name": "联众国际",
+                "code": "epspost",
+                "pinyin": "lianzhongguoji",
+                "firstChar": "L",
+                "sort": 0
+            },
+            {
+                "id": "693",
+                "name": "兰州伙伴物流",
+                "code": "huoban",
+                "pinyin": "lanzhouhuobanwuliu",
+                "firstChar": "L",
+                "sort": 0
+            },
+            {
+                "id": "74",
+                "name": "联昊通",
+                "code": "lianhaowuliu",
+                "pinyin": "lianhaotong",
+                "firstChar": "L",
+                "sort": 0
+            },
+            {
+                "id": "753",
+                "name": "蓝弧快递",
+                "code": "lanhukuaidi",
+                "pinyin": "lanhukuaidi",
+                "firstChar": "L",
+                "sort": 0
+            },
+            {
+                "id": "756",
+                "name": "林安物流",
+                "code": "lasy56",
+                "pinyin": "linanwuliu",
+                "firstChar": "L",
+                "sort": 0
+            },
+            {
+                "id": "758",
+                "name": "立白宝凯物流",
+                "code": "lbbk",
+                "pinyin": "libaibaokaiwuliu",
+                "firstChar": "L",
+                "sort": 0
+            },
+            {
+                "id": "760",
+                "name": "乐递供应链",
+                "code": "ledii",
+                "pinyin": "ledigongyinglian",
+                "firstChar": "L",
+                "sort": 0
+            },
+            {
+                "id": "763",
+                "name": "莱索托(Lesotho Post)",
+                "code": "lesotho",
+                "pinyin": "laisuotuo(Lesotho Post)",
+                "firstChar": "L",
+                "sort": 0
+            },
+            {
+                "id": "766",
+                "name": "lazada",
+                "code": "lgs",
+                "pinyin": "lazada",
+                "firstChar": "L",
+                "sort": 0
+            },
+            {
+                "id": "768",
+                "name": "联运快递",
+                "code": "lianyun",
+                "pinyin": "lianyunkuaidi",
+                "firstChar": "L",
+                "sort": 0
+            },
+            {
+                "id": "770",
+                "name": "丽狮物流",
+                "code": "lishi",
+                "pinyin": "lishiwuliu",
+                "firstChar": "L",
+                "sort": 0
+            },
+            {
+                "id": "772",
+                "name": "良藤国际速递",
+                "code": "lmfex",
+                "pinyin": "liangtengguojisudi",
+                "firstChar": "L",
+                "sort": 0
+            },
+            {
+                "id": "777",
+                "name": "联通快递",
+                "code": "ltparcel",
+                "pinyin": "liantongkuaidi",
+                "firstChar": "L",
+                "sort": 0
+            },
+            {
+                "id": "779",
+                "name": "论道国际物流",
+                "code": "lundao",
+                "pinyin": "lundaoguojiwuliu",
+                "firstChar": "L",
+                "sort": 0
+            },
+            {
+                "id": "780",
+                "name": "鲁通快运",
+                "code": "lutong",
+                "pinyin": "lutongkuaiyun",
+                "firstChar": "L",
+                "sort": 0
+            },
+            {
+                "id": "782",
+                "name": "LWE",
+                "code": "lwe",
+                "pinyin": "LWE",
+                "firstChar": "L",
+                "sort": 0
+            },
+            {
+                "id": "875",
+                "name": "卢旺达(Rwanda i-posita)",
+                "code": "rwanda",
+                "pinyin": "luwangda(Rwanda i-posita)",
+                "firstChar": "L",
+                "sort": 0
+            },
+            {
+                "id": "98",
+                "name": "蓝天快递",
+                "code": "blueskyexpress",
+                "pinyin": "lantiankuaidi",
+                "firstChar": "L",
+                "sort": 0
+            }
+        ]
+    },
+    {
+        "tag": "M",
+        "list": [
+            {
+                "id": "1078",
+                "name": "明辉物流",
+                "code": "zsmhwl",
+                "pinyin": "minghuiwuliu",
+                "firstChar": "M",
+                "sort": 0
+            },
+            {
+                "id": "133",
+                "name": "美通",
+                "code": "valueway",
+                "pinyin": "meitong",
+                "firstChar": "M",
+                "sort": 0
+            },
+            {
+                "id": "186",
+                "name": "美西快递",
+                "code": "meixi",
+                "pinyin": "meixikuaidi",
+                "firstChar": "M",
+                "sort": 0
+            },
+            {
+                "id": "253",
+                "name": "美国汉邦快递",
+                "code": "aplus100",
+                "pinyin": "meiguohanbangkuaidi",
+                "firstChar": "M",
+                "sort": 0
+            },
+            {
+                "id": "266",
+                "name": "美国申通",
+                "code": "stoexpress",
+                "pinyin": "meiguoshentong",
+                "firstChar": "M",
+                "sort": 0
+            },
+            {
+                "id": "399",
+                "name": "马来西亚大包、EMS（Malaysia Post(parcel,EMS)）",
+                "code": "malaysiaems",
+                "pinyin": "malaixiyadabao、EMS（Malaysia Post(parcel,EMS)）",
+                "firstChar": "M",
+                "sort": 0
+            },
+            {
+                "id": "401",
+                "name": "毛里求斯(Mauritius Post)",
+                "code": "mauritius",
+                "pinyin": "maoliqiusi(Mauritius Post)",
+                "firstChar": "M",
+                "sort": 0
+            },
+            {
+                "id": "403",
+                "name": "墨西哥（Correos de Mexico）",
+                "code": "mexico",
+                "pinyin": "moxige（Correos de Mexico）",
+                "firstChar": "M",
+                "sort": 0
+            },
+            {
+                "id": "405",
+                "name": "明亮物流",
+                "code": "mingliangwuliu",
+                "pinyin": "mingliangwuliu",
+                "firstChar": "M",
+                "sort": 0
+            },
+            {
+                "id": "471",
+                "name": "蜜蜂速递",
+                "code": "bee001",
+                "pinyin": "mifengsudi",
+                "firstChar": "M",
+                "sort": 0
+            },
+            {
+                "id": "764",
+                "name": "美联快递",
+                "code": "letseml",
+                "pinyin": "meiliankuaidi",
+                "firstChar": "M",
+                "sort": 0
+            },
+            {
+                "id": "784",
+                "name": "ME物流",
+                "code": "macroexpressco",
+                "pinyin": "MEwuliu",
+                "firstChar": "M",
+                "sort": 0
+            },
+            {
+                "id": "786",
+                "name": "迈隆递运",
+                "code": "mailongdy",
+                "pinyin": "mailongdiyun",
+                "firstChar": "M",
+                "sort": 0
+            },
+            {
+                "id": "788",
+                "name": "马耳他（Malta Post）",
+                "code": "malta",
+                "pinyin": "maerta（Malta Post）",
+                "firstChar": "M",
+                "sort": 0
+            },
+            {
+                "id": "793",
+                "name": "美邦国际快递",
+                "code": "meibang",
+                "pinyin": "meibangguojikuaidi",
+                "firstChar": "M",
+                "sort": 0
+            },
+            {
+                "id": "795",
+                "name": "美泰物流",
+                "code": "meitai",
+                "pinyin": "meitaiwuliu",
+                "firstChar": "M",
+                "sort": 0
+            },
+            {
+                "id": "798",
+                "name": "闽盛快递",
+                "code": "minshengkuaidi",
+                "pinyin": "minshengkuaidi",
+                "firstChar": "M",
+                "sort": 0
+            },
+            {
+                "id": "800",
+                "name": "猛犸速递",
+                "code": "mmlogi",
+                "pinyin": "mengmasudi",
+                "firstChar": "M",
+                "sort": 0
+            },
+            {
+                "id": "802",
+                "name": "蒙古国(Mongol Post) ",
+                "code": "mongolpost",
+                "pinyin": "mengguguo(Mongol Post) ",
+                "firstChar": "M",
+                "sort": 0
+            },
+            {
+                "id": "805",
+                "name": "魔速达",
+                "code": "mosuda",
+                "pinyin": "mosuda",
+                "firstChar": "M",
+                "sort": 0
+            },
+            {
+                "id": "807",
+                "name": "Mexico Multipack",
+                "code": "multipack",
+                "pinyin": "Mexico Multipack",
+                "firstChar": "M",
+                "sort": 0
+            },
+            {
+                "id": "957",
+                "name": "明达国际速递",
+                "code": "tmwexpress",
+                "pinyin": "mingdaguojisudi",
+                "firstChar": "M",
+                "sort": 0
+            }
+        ]
+    },
+    {
+        "tag": "N",
+        "list": [
+            {
+                "id": "233",
+                "name": "能达速递",
+                "code": "ganzhongnengda",
+                "pinyin": "nengdasudi",
+                "firstChar": "N",
+                "sort": 0
+            },
+            {
+                "id": "497",
+                "name": "能装能送",
+                "code": "canhold",
+                "pinyin": "nengzhuangnengsong",
+                "firstChar": "N",
+                "sort": 0
+            },
+            {
+                "id": "810",
+                "name": "纳米比亚(NamPost)",
+                "code": "namibia",
+                "pinyin": "namibiya(NamPost)",
+                "firstChar": "N",
+                "sort": 0
+            },
+            {
+                "id": "813",
+                "name": "尼泊尔（Nepal Postal Services）",
+                "code": "nepalpost",
+                "pinyin": "nipoer（Nepal Postal Services）",
+                "firstChar": "N",
+                "sort": 0
+            },
+            {
+                "id": "815",
+                "name": "NLE",
+                "code": "nle",
+                "pinyin": "NLE",
+                "firstChar": "N",
+                "sort": 0
+            },
+            {
+                "id": "820",
+                "name": "诺尔国际物流",
+                "code": "nuoer",
+                "pinyin": "nuoerguojiwuliu",
+                "firstChar": "N",
+                "sort": 0
+            },
+            {
+                "id": "923",
+                "name": "南非（South African Post Office）",
+                "code": "southafrican",
+                "pinyin": "nanfei（South African Post Office）",
+                "firstChar": "N",
+                "sort": 0
+            },
+            {
+                "id": "989",
+                "name": "宁夏万家通",
+                "code": "wanjiatong",
+                "pinyin": "ningxiawanjiatong",
+                "firstChar": "N",
+                "sort": 0
+            }
+        ]
+    },
+    {
+        "tag": "O",
+        "list": [
+            {
+                "id": "101",
+                "name": "欧亚专线",
+                "code": "euasia",
+                "pinyin": "ouyazhuanxian",
+                "firstChar": "O",
+                "sort": 0
+            },
+            {
+                "id": "68",
+                "name": "OCS",
+                "code": "ocs",
+                "pinyin": "OCS",
+                "firstChar": "O",
+                "sort": 0
+            },
+            {
+                "id": "824",
+                "name": "OCA Argentina",
+                "code": "ocaargen",
+                "pinyin": "OCA Argentina",
+                "firstChar": "O",
+                "sort": 0
+            },
+            {
+                "id": "972",
+                "name": "欧洲UEX",
+                "code": "uexiex",
+                "pinyin": "ouzhouUEX",
+                "firstChar": "O",
+                "sort": 0
+            }
+        ]
+    },
+    {
+        "tag": "P",
+        "list": [
+            {
+                "id": "163",
+                "name": "皮牙子快递",
+                "code": "bazirim",
+                "pinyin": "piyazikuaidi",
+                "firstChar": "P",
+                "sort": 0
+            },
+            {
+                "id": "227",
+                "name": "PCA Express",
+                "code": "pcaexpress",
+                "pinyin": "PCA Express",
+                "firstChar": "P",
+                "sort": 0
+            },
+            {
+                "id": "317",
+                "name": "葡萄牙（Portugal CTT）",
+                "code": "portugalctt",
+                "pinyin": "putaoya（Portugal CTT）",
+                "firstChar": "P",
+                "sort": 0
+            },
+            {
+                "id": "410",
+                "name": "PostElbe",
+                "code": "postelbe",
+                "pinyin": "PostElbe",
+                "firstChar": "P",
+                "sort": 0
+            },
+            {
+                "id": "836",
+                "name": "配思货运",
+                "code": "peisihuoyunkuaidi",
+                "pinyin": "peisihuoyun",
+                "firstChar": "P",
+                "sort": 0
+            },
+            {
+                "id": "838",
+                "name": "鹏远国际速递",
+                "code": "pengyuanexpress",
+                "pinyin": "pengyuanguojisudi",
+                "firstChar": "P",
+                "sort": 0
+            },
+            {
+                "id": "845",
+                "name": "Portugal Seur",
+                "code": "portugalseur",
+                "pinyin": "Portugal Seur",
+                "firstChar": "P",
+                "sort": 0
+            },
+            {
+                "id": "852",
+                "name": "Purolator",
+                "code": "purolator",
+                "pinyin": "Purolator",
+                "firstChar": "P",
+                "sort": 0
+            }
+        ]
+    },
+    {
+        "tag": "Q",
+        "list": [
+            {
+                "id": "1016",
+                "name": "乾坤物流",
+                "code": "yatexpress",
+                "pinyin": "qiankunwuliu",
+                "firstChar": "Q",
+                "sort": 0
+            },
+            {
+                "id": "184",
+                "name": "全联速运",
+                "code": "guexp",
+                "pinyin": "quanliansuyun",
+                "firstChar": "Q",
+                "sort": 0
+            },
+            {
+                "id": "238",
+                "name": "签收快递",
+                "code": "signedexpress",
+                "pinyin": "qianshoukuaidi",
+                "firstChar": "Q",
+                "sort": 0
+            },
+            {
+                "id": "278",
+                "name": "全速物流",
+                "code": "quansu",
+                "pinyin": "quansuwuliu",
+                "firstChar": "Q",
+                "sort": 0
+            },
+            {
+                "id": "300",
+                "name": "全日通",
+                "code": "quanritongkuaidi",
+                "pinyin": "quanritong",
+                "firstChar": "Q",
+                "sort": 0
+            },
+            {
+                "id": "342",
+                "name": "秦邦快运",
+                "code": "qbexpress",
+                "pinyin": "qinbangkuaiyun",
+                "firstChar": "Q",
+                "sort": 0
+            },
+            {
+                "id": "411",
+                "name": "全晨快递",
+                "code": "quanchenkuaidi",
+                "pinyin": "quanchenkuaidi",
+                "firstChar": "Q",
+                "sort": 0
+            },
+            {
+                "id": "479",
+                "name": "青云物流",
+                "code": "bjqywl",
+                "pinyin": "qingyunwuliu",
+                "firstChar": "Q",
+                "sort": 0
+            },
+            {
+                "id": "624",
+                "name": "全网物流",
+                "code": "gdqwwl",
+                "pinyin": "quanwangwuliu",
+                "firstChar": "Q",
+                "sort": 0
+            },
+            {
+                "id": "84",
+                "name": "全一快递",
+                "code": "quanyikuaidi",
+                "pinyin": "quanyikuaidi",
+                "firstChar": "Q",
+                "sort": 0
+            },
+            {
+                "id": "858",
+                "name": "千顺快递",
+                "code": "qskdyxgs",
+                "pinyin": "qianshunkuaidi",
+                "firstChar": "Q",
+                "sort": 0
+            },
+            {
+                "id": "860",
+                "name": "全际通",
+                "code": "quanjitong",
+                "pinyin": "quanjitong",
+                "firstChar": "Q",
+                "sort": 0
+            },
+            {
+                "id": "862",
+                "name": "Quantium",
+                "code": "quantium",
+                "pinyin": "Quantium",
+                "firstChar": "Q",
+                "sort": 0
+            },
+            {
+                "id": "864",
+                "name": "全信通快递",
+                "code": "quanxintong",
+                "pinyin": "quanxintongkuaidi",
+                "firstChar": "Q",
+                "sort": 0
+            },
+            {
+                "id": "874",
+                "name": "全时速运",
+                "code": "runhengfeng",
+                "pinyin": "quanshisuyun",
+                "firstChar": "Q",
+                "sort": 0
+            }
+        ]
+    },
+    {
+        "tag": "R",
+        "list": [
+            {
+                "id": "137",
+                "name": "如风达",
+                "code": "rufengda",
+                "pinyin": "rufengda",
+                "firstChar": "R",
+                "sort": 0
+            },
+            {
+                "id": "189",
+                "name": "瑞士邮政",
+                "code": "swisspostcn",
+                "pinyin": "ruishiyouzheng",
+                "firstChar": "R",
+                "sort": 0
+            },
+            {
+                "id": "248",
+                "name": "瑞士(Swiss Post)",
+                "code": "swisspost",
+                "pinyin": "ruishi(Swiss Post)",
+                "firstChar": "R",
+                "sort": 0
+            },
+            {
+                "id": "314",
+                "name": "如家国际快递",
+                "code": "homecourier",
+                "pinyin": "rujiaguojikuaidi",
+                "firstChar": "R",
+                "sort": 0
+            },
+            {
+                "id": "414",
+                "name": "日日顺快线",
+                "code": "rrskx",
+                "pinyin": "ririshunkuaixian",
+                "firstChar": "R",
+                "sort": 0
+            },
+            {
+                "id": "625",
+                "name": "容智快运",
+                "code": "gdrz58",
+                "pinyin": "rongzhikuaiyun",
+                "firstChar": "R",
+                "sort": 0
+            },
+            {
+                "id": "866",
+                "name": "Red Express",
+                "code": "redexpress",
+                "pinyin": "Red Express",
+                "firstChar": "R",
+                "sort": 0
+            },
+            {
+                "id": "868",
+                "name": "荣庆物流",
+                "code": "rokin",
+                "pinyin": "rongqingwuliu",
+                "firstChar": "R",
+                "sort": 0
+            },
+            {
+                "id": "871",
+                "name": "日日通国际",
+                "code": "rrthk",
+                "pinyin": "riritongguoji",
+                "firstChar": "R",
+                "sort": 0
+            },
+            {
+                "id": "876",
+                "name": "日益通速递",
+                "code": "rytsd",
+                "pinyin": "riyitongsudi",
+                "firstChar": "R",
+                "sort": 0
+            }
+        ]
+    },
+    {
+        "tag": "S",
+        "list": [
+            {
+                "id": "104",
+                "name": "速达通",
+                "code": "sdto",
+                "pinyin": "sudatong",
+                "firstChar": "S",
+                "sort": 0
+            },
+            {
+                "id": "111",
+                "name": "SYNSHIP快递",
+                "code": "synship",
+                "pinyin": "SYNSHIPkuaidi",
+                "firstChar": "S",
+                "sort": 0
+            },
+            {
+                "id": "144",
+                "name": "顺丰-繁体",
+                "code": "shunfenghk",
+                "pinyin": "shunfeng-fanti",
+                "firstChar": "S",
+                "sort": 0
+            },
+            {
+                "id": "191",
+                "name": "速递中国",
+                "code": "sendtochina",
+                "pinyin": "sudizhongguo",
+                "firstChar": "S",
+                "sort": 0
+            },
+            {
+                "id": "200",
+                "name": "盛丰物流",
+                "code": "shengfengwuliu",
+                "pinyin": "shengfengwuliu",
+                "firstChar": "S",
+                "sort": 0
+            },
+            {
+                "id": "221",
+                "name": "速通物流",
+                "code": "sutongwuliu",
+                "pinyin": "sutongwuliu",
+                "firstChar": "S",
+                "sort": 0
+            },
+            {
+                "id": "228",
+                "name": "申通快运",
+                "code": "stoe56",
+                "pinyin": "shentongkuaiyun",
+                "firstChar": "S",
+                "sort": 0
+            },
+            {
+                "id": "270",
+                "name": "上大物流",
+                "code": "shangda",
+                "pinyin": "shangdawuliu",
+                "firstChar": "S",
+                "sort": 0
+            },
+            {
+                "id": "31",
+                "name": "速尔快递",
+                "code": "suer",
+                "pinyin": "suerkuaidi",
+                "firstChar": "S",
+                "sort": 0
+            },
+            {
+                "id": "318",
+                "name": "赛澳递for买卖宝",
+                "code": "saiaodimmb",
+                "pinyin": "saiaodiformaimaibao",
+                "firstChar": "S",
+                "sort": 0
+            },
+            {
+                "id": "343",
+                "name": "圣安物流",
+                "code": "shenganwuliu",
+                "pinyin": "shenganwuliu",
+                "firstChar": "S",
+                "sort": 0
+            },
+            {
+                "id": "366",
+                "name": "速方(Sufast)",
+                "code": "bphchina",
+                "pinyin": "sufang(Sufast)",
+                "firstChar": "S",
+                "sort": 0
+            },
+            {
+                "id": "378",
+                "name": "速派快递",
+                "code": "fastgoexpress",
+                "pinyin": "supaikuaidi",
+                "firstChar": "S",
+                "sort": 0
+            },
+            {
+                "id": "415",
+                "name": "Safexpress",
+                "code": "safexpress",
+                "pinyin": "Safexpress",
+                "firstChar": "S",
+                "sort": 0
+            },
+            {
+                "id": "417",
+                "name": "十方通物流",
+                "code": "sfift",
+                "pinyin": "shifangtongwuliu",
+                "firstChar": "S",
+                "sort": 0
+            },
+            {
+                "id": "419",
+                "name": "商桥物流",
+                "code": "shangqiao56",
+                "pinyin": "shangqiaowuliu",
+                "firstChar": "S",
+                "sort": 0
+            },
+            {
+                "id": "507",
+                "name": "SQK国际速递",
+                "code": "chinasqk",
+                "pinyin": "SQKguojisudi",
+                "firstChar": "S",
+                "sort": 0
+            },
+            {
+                "id": "537",
+                "name": "深圳德创物流",
+                "code": "dechuangwuliu",
+                "pinyin": "shenzhendechuangwuliu",
+                "firstChar": "S",
+                "sort": 0
+            },
+            {
+                "id": "696",
+                "name": "上海昊宏国际货物",
+                "code": "hyk",
+                "pinyin": "shanghaihaohongguojihuowu",
+                "firstChar": "S",
+                "sort": 0
+            },
+            {
+                "id": "71",
+                "name": "速必达",
+                "code": "subida",
+                "pinyin": "subida",
+                "firstChar": "S",
+                "sort": 0
+            },
+            {
+                "id": "748",
+                "name": "四川快优达速递",
+                "code": "kuaiyouda",
+                "pinyin": "sichuankuaiyoudasudi",
+                "firstChar": "S",
+                "sort": 0
+            },
+            {
+                "id": "755",
+                "name": "塞内加尔",
+                "code": "laposte",
+                "pinyin": "saineijiaer",
+                "firstChar": "S",
+                "sort": 0
+            },
+            {
+                "id": "878",
+                "name": "赛澳递",
+                "code": "saiaodi",
+                "pinyin": "saiaodi",
+                "firstChar": "S",
+                "sort": 0
+            },
+            {
+                "id": "880",
+                "name": "三盛快递",
+                "code": "sanshengco",
+                "pinyin": "sanshengkuaidi",
+                "firstChar": "S",
+                "sort": 0
+            },
+            {
+                "id": "883",
+                "name": "四川星程快递",
+                "code": "scxingcheng",
+                "pinyin": "sichuanxingchengkuaidi",
+                "firstChar": "S",
+                "sort": 0
+            },
+            {
+                "id": "886",
+                "name": "首达速运",
+                "code": "sdsy888",
+                "pinyin": "shoudasuyun",
+                "firstChar": "S",
+                "sort": 0
+            },
+            {
+                "id": "889",
+                "name": "塞尔维亚(PE Post of Serbia)",
+                "code": "serbia",
+                "pinyin": "saierweiya(PE Post of Serbia)",
+                "firstChar": "S",
+                "sort": 0
+            },
+            {
+                "id": "894",
+                "name": "衫达快运",
+                "code": "shanda56",
+                "pinyin": "shandakuaiyun",
+                "firstChar": "S",
+                "sort": 0
+            },
+            {
+                "id": "896",
+                "name": "上海无疆for买卖宝",
+                "code": "shanghaiwujiangmmb",
+                "pinyin": "shanghaiwujiangformaimaibao",
+                "firstChar": "S",
+                "sort": 0
+            },
+            {
+                "id": "898",
+                "name": "商海德物流",
+                "code": "shd56",
+                "pinyin": "shanghaidewuliu",
+                "firstChar": "S",
+                "sort": 0
+            },
+            {
+                "id": "900",
+                "name": "神马快递",
+                "code": "shenma",
+                "pinyin": "shenmakuaidi",
+                "firstChar": "S",
+                "sort": 0
+            },
+            {
+                "id": "904",
+                "name": "世运快递",
+                "code": "shiyunkuaidi",
+                "pinyin": "shiyunkuaidi",
+                "firstChar": "S",
+                "sort": 0
+            },
+            {
+                "id": "908",
+                "name": "顺捷达",
+                "code": "shunjieda",
+                "pinyin": "shunjieda",
+                "firstChar": "S",
+                "sort": 0
+            },
+            {
+                "id": "910",
+                "name": "四海快递",
+                "code": "sihaiet",
+                "pinyin": "sihaikuaidi",
+                "firstChar": "S",
+                "sort": 0
+            },
+            {
+                "id": "914",
+                "name": "Siodemka",
+                "code": "siodemka",
+                "pinyin": "Siodemka",
+                "firstChar": "S",
+                "sort": 0
+            },
+            {
+                "id": "917",
+                "name": "SkyNet Malaysia",
+                "code": "skynetmalaysia",
+                "pinyin": "SkyNet Malaysia",
+                "firstChar": "S",
+                "sort": 0
+            },
+            {
+                "id": "920",
+                "name": "斯洛文尼亚(Slovenia Post)",
+                "code": "slovenia",
+                "pinyin": "siluowenniya(Slovenia Post)",
+                "firstChar": "S",
+                "sort": 0
+            },
+            {
+                "id": "922",
+                "name": "嗖一下同城快递",
+                "code": "sofast56",
+                "pinyin": "souyixiatongchengkuaidi",
+                "firstChar": "S",
+                "sort": 0
+            },
+            {
+                "id": "927",
+                "name": "首通快运",
+                "code": "staky",
+                "pinyin": "shoutongkuaiyun",
+                "firstChar": "S",
+                "sort": 0
+            },
+            {
+                "id": "931",
+                "name": "速豹",
+                "code": "subaoex",
+                "pinyin": "subao",
+                "firstChar": "S",
+                "sort": 0
+            },
+            {
+                "id": "934",
+                "name": "苏丹（Sudapost）",
+                "code": "sudapost",
+                "pinyin": "sudan（Sudapost）",
+                "firstChar": "S",
+                "sort": 0
+            },
+            {
+                "id": "938",
+                "name": "速品快递",
+                "code": "supinexpress",
+                "pinyin": "supinkuaidi",
+                "firstChar": "S",
+                "sort": 0
+            },
+            {
+                "id": "941",
+                "name": "速通物流",
+                "code": "sut56",
+                "pinyin": "sutongwuliu",
+                "firstChar": "S",
+                "sort": 0
+            },
+            {
+                "id": "943",
+                "name": "深圳DPEX",
+                "code": "szdpex",
+                "pinyin": "shenzhenDPEX",
+                "firstChar": "S",
+                "sort": 0
+            },
+            {
+                "id": "96",
+                "name": "盛辉物流",
+                "code": "shenghuiwuliu",
+                "pinyin": "shenghuiwuliu",
+                "firstChar": "S",
+                "sort": 0
+            }
+        ]
+    },
+    {
+        "tag": "T",
+        "list": [
+            {
+                "id": "10",
+                "name": "天天快递",
+                "code": "tiantian",
+                "pinyin": "tiantiankuaidi",
+                "firstChar": "T",
+                "sort": 0
+            },
+            {
+                "id": "119",
+                "name": "Toll",
+                "code": "dpexen",
+                "pinyin": "Toll",
+                "firstChar": "T",
+                "sort": 0
+            },
+            {
+                "id": "167",
+                "name": "TNT Australia",
+                "code": "tntau",
+                "pinyin": "TNT Australia",
+                "firstChar": "T",
+                "sort": 0
+            },
+            {
+                "id": "187",
+                "name": "TST速运通",
+                "code": "tstexp",
+                "pinyin": "TSTsuyuntong",
+                "firstChar": "T",
+                "sort": 0
+            },
+            {
+                "id": "234",
+                "name": "台湾（中华邮政）",
+                "code": "postserv",
+                "pinyin": "taiwan（zhonghuayouzheng）",
+                "firstChar": "T",
+                "sort": 0
+            },
+            {
+                "id": "260",
+                "name": "泰国（Thailand Thai Post）",
+                "code": "thailand",
+                "pinyin": "taiguo（Thailand Thai Post）",
+                "firstChar": "T",
+                "sort": 0
+            },
+            {
+                "id": "294",
+                "name": "天天快物流",
+                "code": "guoeryue",
+                "pinyin": "tiantiankuaiwuliu",
+                "firstChar": "T",
+                "sort": 0
+            },
+            {
+                "id": "372",
+                "name": "泰国中通CTO",
+                "code": "ctoexp",
+                "pinyin": "taiguozhongtongCTO",
+                "firstChar": "T",
+                "sort": 0
+            },
+            {
+                "id": "508",
+                "name": "同舟行物流",
+                "code": "chinatzx",
+                "pinyin": "tongzhouxingwuliu",
+                "firstChar": "T",
+                "sort": 0
+            },
+            {
+                "id": "66",
+                "name": "天地华宇",
+                "code": "tiandihuayu",
+                "pinyin": "tiandihuayu",
+                "firstChar": "T",
+                "sort": 0
+            },
+            {
+                "id": "698",
+                "name": "途鲜物流",
+                "code": "ibenben",
+                "pinyin": "tuxianwuliu",
+                "firstChar": "T",
+                "sort": 0
+            },
+            {
+                "id": "79",
+                "name": "同城快寄",
+                "code": "shpost",
+                "pinyin": "tongchengkuaiji",
+                "firstChar": "T",
+                "sort": 0
+            },
+            {
+                "id": "818",
+                "name": "腾达速递",
+                "code": "nntengda",
+                "pinyin": "tengdasudi",
+                "firstChar": "T",
+                "sort": 0
+            },
+            {
+                "id": "851",
+                "name": "土耳其",
+                "code": "ptt",
+                "pinyin": "tuerqi",
+                "firstChar": "T",
+                "sort": 0
+            },
+            {
+                "id": "933",
+                "name": "特急便物流",
+                "code": "sucmj",
+                "pinyin": "tejibianwuliu",
+                "firstChar": "T",
+                "sort": 0
+            },
+            {
+                "id": "945",
+                "name": "天美快递",
+                "code": "taimek",
+                "pinyin": "tianmeikuaidi",
+                "firstChar": "T",
+                "sort": 0
+            },
+            {
+                "id": "947",
+                "name": "淘布斯国际物流",
+                "code": "taoplus",
+                "pinyin": "taobusiguojiwuliu",
+                "firstChar": "T",
+                "sort": 0
+            },
+            {
+                "id": "950",
+                "name": "TCXB国际物流",
+                "code": "tcxbthai",
+                "pinyin": "TCXBguojiwuliu",
+                "firstChar": "T",
+                "sort": 0
+            },
+            {
+                "id": "952",
+                "name": "天马迅达",
+                "code": "tianma",
+                "pinyin": "tianmaxunda",
+                "firstChar": "T",
+                "sort": 0
+            },
+            {
+                "id": "954",
+                "name": "天纵物流",
+                "code": "tianzong",
+                "pinyin": "tianzongwuliu",
+                "firstChar": "T",
+                "sort": 0
+            },
+            {
+                "id": "958",
+                "name": "TNT Italy",
+                "code": "tntitaly",
+                "pinyin": "TNT Italy",
+                "firstChar": "T",
+                "sort": 0
+            },
+            {
+                "id": "960",
+                "name": "TNY物流",
+                "code": "tny",
+                "pinyin": "TNYwuliu",
+                "firstChar": "T",
+                "sort": 0
+            },
+            {
+                "id": "962",
+                "name": "Toll Priority(Toll Online)",
+                "code": "tollpriority",
+                "pinyin": "Toll Priority(Toll Online)",
+                "firstChar": "T",
+                "sort": 0
+            },
+            {
+                "id": "965",
+                "name": "track-parcel",
+                "code": "trackparcel",
+                "pinyin": "track-parcel",
+                "firstChar": "T",
+                "sort": 0
+            },
+            {
+                "id": "967",
+                "name": "突尼斯EMS(Rapid-Poste)",
+                "code": "tunisia",
+                "pinyin": "tunisiEMS(Rapid-Poste)",
+                "firstChar": "T",
+                "sort": 0
+            },
+            {
+                "id": "97",
+                "name": "TNT-全球件",
+                "code": "tnten",
+                "pinyin": "TNT-quanqiujian",
+                "firstChar": "T",
+                "sort": 0
+            }
+        ]
+    },
+    {
+        "tag": "U",
+        "list": [
+            {
+                "id": "17",
+                "name": "USPS",
+                "code": "usps",
+                "pinyin": "USPS",
+                "firstChar": "U",
+                "sort": 0
+            },
+            {
+                "id": "36",
+                "name": "UEQ快递",
+                "code": "ueq",
+                "pinyin": "UEQkuaidi",
+                "firstChar": "U",
+                "sort": 0
+            },
+            {
+                "id": "50",
+                "name": "UPS",
+                "code": "ups",
+                "pinyin": "UPS",
+                "firstChar": "U",
+                "sort": 0
+            },
+            {
+                "id": "709",
+                "name": "UPS i-parcel",
+                "code": "iparcel",
+                "pinyin": "UPS i-parcel",
+                "firstChar": "U",
+                "sort": 0
+            },
+            {
+                "id": "977",
+                "name": "UPS Freight",
+                "code": "upsfreight",
+                "pinyin": "UPS Freight",
+                "firstChar": "U",
+                "sort": 0
+            },
+            {
+                "id": "979",
+                "name": "UTAO优到",
+                "code": "utaoscm",
+                "pinyin": "UTAOyoudao",
+                "firstChar": "U",
+                "sort": 0
+            }
+        ]
+    },
+    {
+        "tag": "V",
+        "list": []
+    },
+    {
+        "tag": "W",
+        "list": [
+            {
+                "id": "197",
+                "name": "沃埃家",
+                "code": "wowvip",
+                "pinyin": "woaijia",
+                "firstChar": "W",
+                "sort": 0
+            },
+            {
+                "id": "218",
+                "name": "五六快运",
+                "code": "wuliuky",
+                "pinyin": "wuliukuaiyun",
+                "firstChar": "W",
+                "sort": 0
+            },
+            {
+                "id": "29",
+                "name": "威盛快递",
+                "code": "wherexpess",
+                "pinyin": "weishengkuaidi",
+                "firstChar": "W",
+                "sort": 0
+            },
+            {
+                "id": "303",
+                "name": "乌兹别克斯坦(Post of Uzbekistan)",
+                "code": "uzbekistan",
+                "pinyin": "wuzibiekesitan(Post of Uzbekistan)",
+                "firstChar": "W",
+                "sort": 0
+            },
+            {
+                "id": "326",
+                "name": "乌拉圭（Correo Uruguayo）",
+                "code": "correo",
+                "pinyin": "wulagui（Correo Uruguayo）",
+                "firstChar": "W",
+                "sort": 0
+            },
+            {
+                "id": "426",
+                "name": "文捷航空",
+                "code": "wenjiesudi",
+                "pinyin": "wenjiehangkong",
+                "firstChar": "W",
+                "sort": 0
+            },
+            {
+                "id": "429",
+                "name": "渥途国际速运",
+                "code": "wotu",
+                "pinyin": "wotuguojisuyun",
+                "firstChar": "W",
+                "sort": 0
+            },
+            {
+                "id": "431",
+                "name": "温通物流",
+                "code": "wto56kj",
+                "pinyin": "wentongwuliu",
+                "firstChar": "W",
+                "sort": 0
+            },
+            {
+                "id": "489",
+                "name": "文莱(Brunei Postal)",
+                "code": "brunei",
+                "pinyin": "wenlai(Brunei Postal)",
+                "firstChar": "W",
+                "sort": 0
+            },
+            {
+                "id": "580",
+                "name": "乌克兰EMS-中文(EMS Ukraine)",
+                "code": "emsukrainecn",
+                "pinyin": "wukelanEMS-zhongwen(EMS Ukraine)",
+                "firstChar": "W",
+                "sort": 0
+            },
+            {
+                "id": "637",
+                "name": "潍鸿",
+                "code": "grivertek",
+                "pinyin": "weihong",
+                "firstChar": "W",
+                "sort": 0
+            },
+            {
+                "id": "902",
+                "name": "王牌快递",
+                "code": "shipbyace",
+                "pinyin": "wangpaikuaidi",
+                "firstChar": "W",
+                "sort": 0
+            },
+            {
+                "id": "91",
+                "name": "微特派",
+                "code": "weitepai",
+                "pinyin": "weitepai",
+                "firstChar": "W",
+                "sort": 0
+            },
+            {
+                "id": "973",
+                "name": "乌干达(Posta Uganda)",
+                "code": "uganda",
+                "pinyin": "wuganda(Posta Uganda)",
+                "firstChar": "W",
+                "sort": 0
+            },
+            {
+                "id": "976",
+                "name": "乌克兰小包、大包(UkrPost)",
+                "code": "ukrpost",
+                "pinyin": "wukelanxiaobao、dabao(UkrPost)",
+                "firstChar": "W",
+                "sort": 0
+            },
+            {
+                "id": "986",
+                "name": "维普恩物流",
+                "code": "vps",
+                "pinyin": "weipuenwuliu",
+                "firstChar": "W",
+                "sort": 0
+            },
+            {
+                "id": "988",
+                "name": "豌豆物流",
+                "code": "wandougongzhu",
+                "pinyin": "wandouwuliu",
+                "firstChar": "W",
+                "sort": 0
+            },
+            {
+                "id": "991",
+                "name": "未来明天快递",
+                "code": "weilaimingtian",
+                "pinyin": "weilaimingtiankuaidi",
+                "firstChar": "W",
+                "sort": 0
+            },
+            {
+                "id": "995",
+                "name": "伍圆速递",
+                "code": "wuyuansudi",
+                "pinyin": "wuyuansudi",
+                "firstChar": "W",
+                "sort": 0
+            }
+        ]
+    },
+    {
+        "tag": "X",
+        "list": [
+            {
+                "id": "100",
+                "name": "信丰物流",
+                "code": "xinfengwuliu",
+                "pinyin": "xinfengwuliu",
+                "firstChar": "X",
+                "sort": 0
+            },
+            {
+                "id": "1001",
+                "name": "先锋快递",
+                "code": "xianfeng",
+                "pinyin": "xianfengkuaidi",
+                "firstChar": "X",
+                "sort": 0
+            },
+            {
+                "id": "1003",
+                "name": "祥龙运通物流",
+                "code": "xianglongyuntong",
+                "pinyin": "xianglongyuntongwuliu",
+                "firstChar": "X",
+                "sort": 0
+            },
+            {
+                "id": "1005",
+                "name": "小C海淘",
+                "code": "xiaocex",
+                "pinyin": "xiaoChaitao",
+                "firstChar": "X",
+                "sort": 0
+            },
+            {
+                "id": "1007",
+                "name": "新元快递",
+                "code": "xingyuankuaidi",
+                "pinyin": "xinyuankuaidi",
+                "firstChar": "X",
+                "sort": 0
+            },
+            {
+                "id": "1009",
+                "name": "信天捷快递",
+                "code": "xintianjie",
+                "pinyin": "xintianjiekuaidi",
+                "firstChar": "X",
+                "sort": 0
+            },
+            {
+                "id": "1011",
+                "name": "西游寄",
+                "code": "xiyoug",
+                "pinyin": "xiyouji",
+                "firstChar": "X",
+                "sort": 0
+            },
+            {
+                "id": "1013",
+                "name": "迅速快递",
+                "code": "xunsuexpress",
+                "pinyin": "xunsukuaidi",
+                "firstChar": "X",
+                "sort": 0
+            },
+            {
+                "id": "1015",
+                "name": "新元国际",
+                "code": "xynyc",
+                "pinyin": "xinyuanguoji",
+                "firstChar": "X",
+                "sort": 0
+            },
+            {
+                "id": "108",
+                "name": "新顺丰（NSF）",
+                "code": "nsf",
+                "pinyin": "xinshunfeng（NSF）",
+                "firstChar": "X",
+                "sort": 0
+            },
+            {
+                "id": "124",
+                "name": "新杰物流",
+                "code": "sunjex",
+                "pinyin": "xinjiewuliu",
+                "firstChar": "X",
+                "sort": 0
+            },
+            {
+                "id": "168",
+                "name": "星空国际",
+                "code": "wlwex",
+                "pinyin": "xingkongguoji",
+                "firstChar": "X",
+                "sort": 0
+            },
+            {
+                "id": "185",
+                "name": "西翼物流",
+                "code": "westwing",
+                "pinyin": "xiyiwuliu",
+                "firstChar": "X",
+                "sort": 0
+            },
+            {
+                "id": "202",
+                "name": "西班牙(Correos de Espa?a)",
+                "code": "correosdees",
+                "pinyin": "xibanya(Correos de Espa?a)",
+                "firstChar": "X",
+                "sort": 0
+            },
+            {
+                "id": "269",
+                "name": "新亚物流",
+                "code": "nalexpress",
+                "pinyin": "xinyawuliu",
+                "firstChar": "X",
+                "sort": 0
+            },
+            {
+                "id": "346",
+                "name": "信联通",
+                "code": "sinatone",
+                "pinyin": "xinliantong",
+                "firstChar": "X",
+                "sort": 0
+            },
+            {
+                "id": "388",
+                "name": "匈牙利（Magyar Posta）",
+                "code": "hungary",
+                "pinyin": "xiongyali（Magyar Posta）",
+                "firstChar": "X",
+                "sort": 0
+            },
+            {
+                "id": "421",
+                "name": "新加坡EMS、大包(Singapore Speedpost)",
+                "code": "speedpost",
+                "pinyin": "xinjiapoEMS、dabao(Singapore Speedpost)",
+                "firstChar": "X",
+                "sort": 0
+            },
+            {
+                "id": "455",
+                "name": "新干线快递",
+                "code": "anlexpress",
+                "pinyin": "xinganxiankuaidi",
+                "firstChar": "X",
+                "sort": 0
+            },
+            {
+                "id": "492",
+                "name": "新喀里多尼亚[法国](New Caledonia)",
+                "code": "caledonia",
+                "pinyin": "xinkaliduoniya[faguo](New Caledonia)",
+                "firstChar": "X",
+                "sort": 0
+            },
+            {
+                "id": "572",
+                "name": "希腊包裹（ELTA Hellenic Post）",
+                "code": "elta",
+                "pinyin": "xilabaoguo（ELTA Hellenic Post）",
+                "firstChar": "X",
+                "sort": 0
+            },
+            {
+                "id": "60",
+                "name": "迅达速递",
+                "code": "xdexpress",
+                "pinyin": "xundasudi",
+                "firstChar": "X",
+                "sort": 0
+            },
+            {
+                "id": "822",
+                "name": "新西兰中通",
+                "code": "nzzto",
+                "pinyin": "xinxilanzhongtong",
+                "firstChar": "X",
+                "sort": 0
+            },
+            {
+                "id": "924",
+                "name": "行必达",
+                "code": "speeda",
+                "pinyin": "xingbida",
+                "firstChar": "X",
+                "sort": 0
+            },
+            {
+                "id": "929",
+                "name": "星运快递",
+                "code": "staryvr",
+                "pinyin": "xingyunkuaidi",
+                "firstChar": "X",
+                "sort": 0
+            },
+            {
+                "id": "992",
+                "name": "香港伟豪国际物流",
+                "code": "whgjkd",
+                "pinyin": "xianggangweihaoguojiwuliu",
+                "firstChar": "X",
+                "sort": 0
+            }
+        ]
+    },
+    {
+        "tag": "Y",
+        "list": [
+            {
+                "id": "1",
+                "name": "韵达快递",
+                "code": "yunda",
+                "pinyin": "yundakuaidi",
+                "firstChar": "Y",
+                "sort": 0
+            },
+            {
+                "id": "1018",
+                "name": "YCG物流",
+                "code": "ycgglobal",
+                "pinyin": "YCGwuliu",
+                "firstChar": "Y",
+                "sort": 0
+            },
+            {
+                "id": "1020",
+                "name": "也门(Yemen Post)",
+                "code": "yemen",
+                "pinyin": "yemen(Yemen Post)",
+                "firstChar": "Y",
+                "sort": 0
+            },
+            {
+                "id": "1022",
+                "name": "宇航通物流",
+                "code": "yhtlogistics",
+                "pinyin": "yuhangtongwuliu",
+                "firstChar": "Y",
+                "sort": 0
+            },
+            {
+                "id": "1024",
+                "name": "驿递汇速递",
+                "code": "yidihui",
+                "pinyin": "yidihuisudi",
+                "firstChar": "Y",
+                "sort": 0
+            },
+            {
+                "id": "1026",
+                "name": "艺凡快递",
+                "code": "yifankd",
+                "pinyin": "yifankuaidi",
+                "firstChar": "Y",
+                "sort": 0
+            },
+            {
+                "id": "1028",
+                "name": "亿领速运",
+                "code": "yilingsuyun",
+                "pinyin": "yilingsuyun",
+                "firstChar": "Y",
+                "sort": 0
+            },
+            {
+                "id": "1030",
+                "name": "音素快运",
+                "code": "yinsu",
+                "pinyin": "yinsukuaiyun",
+                "firstChar": "Y",
+                "sort": 0
+            },
+            {
+                "id": "1032",
+                "name": "一柒国际物流",
+                "code": "yiqiguojiwuliu",
+                "pinyin": "yiqiguojiwuliu",
+                "firstChar": "Y",
+                "sort": 0
+            },
+            {
+                "id": "1034",
+                "name": "亿顺航",
+                "code": "yishunhang",
+                "pinyin": "yishunhang",
+                "firstChar": "Y",
+                "sort": 0
+            },
+            {
+                "id": "1036",
+                "name": "易通达",
+                "code": "yitongda",
+                "pinyin": "yitongda",
+                "firstChar": "Y",
+                "sort": 0
+            },
+            {
+                "id": "1038",
+                "name": "洋口岸",
+                "code": "ykouan",
+                "pinyin": "yangkouan",
+                "firstChar": "Y",
+                "sort": 0
+            },
+            {
+                "id": "1040",
+                "name": "永旺达快递",
+                "code": "yongwangda",
+                "pinyin": "yongwangdakuaidi",
+                "firstChar": "Y",
+                "sort": 0
+            },
+            {
+                "id": "1042",
+                "name": "友家速递",
+                "code": "youjia",
+                "pinyin": "youjiasudi",
+                "firstChar": "Y",
+                "sort": 0
+            },
+            {
+                "id": "1044",
+                "name": "雅澳物流",
+                "code": "yourscm",
+                "pinyin": "yaaowuliu",
+                "firstChar": "Y",
+                "sort": 0
+            },
+            {
+                "id": "1046",
+                "name": "运通快运",
+                "code": "ytky168",
+                "pinyin": "yuntongkuaiyun",
+                "firstChar": "Y",
+                "sort": 0
+            },
+            {
+                "id": "1048",
+                "name": "玥玛速运",
+                "code": "yue777",
+                "pinyin": "yuemasuyun",
+                "firstChar": "Y",
+                "sort": 0
+            },
+            {
+                "id": "105",
+                "name": "优联吉运",
+                "code": "uluckex",
+                "pinyin": "youlianjiyun",
+                "firstChar": "Y",
+                "sort": 0
+            },
+            {
+                "id": "1051",
+                "name": "煜嘉物流",
+                "code": "yujiawuliu",
+                "pinyin": "yujiawuliu",
+                "firstChar": "Y",
+                "sort": 0
+            },
+            {
+                "id": "1053",
+                "name": "韵丰物流",
+                "code": "yunfeng56",
+                "pinyin": "yunfengwuliu",
+                "firstChar": "Y",
+                "sort": 0
+            },
+            {
+                "id": "1055",
+                "name": "YUN TRACK",
+                "code": "yuntrack",
+                "pinyin": "YUN TRACK",
+                "firstChar": "Y",
+                "sort": 0
+            },
+            {
+                "id": "1057",
+                "name": "远为快递",
+                "code": "ywexpress",
+                "pinyin": "yuanweikuaidi",
+                "firstChar": "Y",
+                "sort": 0
+            },
+            {
+                "id": "1060",
+                "name": "亚洲顺物流",
+                "code": "yzswuliu",
+                "pinyin": "yazhoushunwuliu",
+                "firstChar": "Y",
+                "sort": 0
+            },
+            {
+                "id": "131",
+                "name": "亚风速递",
+                "code": "yafengsudi",
+                "pinyin": "yafengsudi",
+                "firstChar": "Y",
+                "sort": 0
+            },
+            {
+                "id": "146",
+                "name": "运通中港",
+                "code": "yuntongkuaidi",
+                "pinyin": "yuntongzhonggang",
+                "firstChar": "Y",
+                "sort": 0
+            },
+            {
+                "id": "16",
+                "name": "优速物流",
+                "code": "youshuwuliu",
+                "pinyin": "yousuwuliu",
+                "firstChar": "Y",
+                "sort": 0
+            },
+            {
+                "id": "207",
+                "name": "远成快运",
+                "code": "ycgky",
+                "pinyin": "yuanchengkuaiyun",
+                "firstChar": "Y",
+                "sort": 0
+            },
+            {
+                "id": "219",
+                "name": "远成物流",
+                "code": "yuanchengwuliu",
+                "pinyin": "yuanchengwuliu",
+                "firstChar": "Y",
+                "sort": 0
+            },
+            {
+                "id": "236",
+                "name": "易达通",
+                "code": "yidatong",
+                "pinyin": "yidatong",
+                "firstChar": "Y",
+                "sort": 0
+            },
+            {
+                "id": "242",
+                "name": "一智通",
+                "code": "1ziton",
+                "pinyin": "yizhitong",
+                "firstChar": "Y",
+                "sort": 0
+            },
+            {
+                "id": "272",
+                "name": "YODEL",
+                "code": "yodel",
+                "pinyin": "YODEL",
+                "firstChar": "Y",
+                "sort": 0
+            },
+            {
+                "id": "28",
+                "name": "韵达快运",
+                "code": "yundakuaiyun",
+                "pinyin": "yundakuaiyun",
+                "firstChar": "Y",
+                "sort": 0
+            },
+            {
+                "id": "290",
+                "name": "优海国际速递",
+                "code": "uhi",
+                "pinyin": "youhaiguojisudi",
+                "firstChar": "Y",
+                "sort": 0
+            },
+            {
+                "id": "3",
+                "name": "圆通速递",
+                "code": "yuantong",
+                "pinyin": "yuantongsudi",
+                "firstChar": "Y",
+                "sort": 0
+            },
+            {
+                "id": "32",
+                "name": "易达通快递",
+                "code": "qexpress",
+                "pinyin": "yidatongkuaidi",
+                "firstChar": "Y",
+                "sort": 0
+            },
+            {
+                "id": "349",
+                "name": "亚马逊中国",
+                "code": "yamaxunwuliu",
+                "pinyin": "yamaxunzhongguo",
+                "firstChar": "Y",
+                "sort": 0
+            },
+            {
+                "id": "351",
+                "name": "远航国际快运",
+                "code": "yuanhhk",
+                "pinyin": "yuanhangguojikuaiyun",
+                "firstChar": "Y",
+                "sort": 0
+            },
+            {
+                "id": "39",
+                "name": "壹米滴答",
+                "code": "yimidida",
+                "pinyin": "yimidida",
+                "firstChar": "Y",
+                "sort": 0
+            },
+            {
+                "id": "424",
+                "name": "易境达国际物流",
+                "code": "uscbexpress",
+                "pinyin": "yijingdaguojiwuliu",
+                "firstChar": "Y",
+                "sort": 0
+            },
+            {
+                "id": "434",
+                "name": "永昌物流",
+                "code": "yongchangwuliu",
+                "pinyin": "yongchangwuliu",
+                "firstChar": "Y",
+                "sort": 0
+            },
+            {
+                "id": "436",
+                "name": "越丰物流",
+                "code": "yuefengwuliu",
+                "pinyin": "yuefengwuliu",
+                "firstChar": "Y",
+                "sort": 0
+            },
+            {
+                "id": "453",
+                "name": "亚马逊中国订单",
+                "code": "amazoncnorder",
+                "pinyin": "yamaxunzhongguodingdan",
+                "firstChar": "Y",
+                "sort": 0
+            },
+            {
+                "id": "48",
+                "name": "圆通快运",
+                "code": "yuantongkuaiyun",
+                "pinyin": "yuantongkuaiyun",
+                "firstChar": "Y",
+                "sort": 0
+            },
+            {
+                "id": "535",
+                "name": "云南诚中物流",
+                "code": "czwlyn",
+                "pinyin": "yunnanchengzhongwuliu",
+                "firstChar": "Y",
+                "sort": 0
+            },
+            {
+                "id": "56",
+                "name": "优邦速运",
+                "code": "ubonex",
+                "pinyin": "youbangsuyun",
+                "firstChar": "Y",
+                "sort": 0
+            },
+            {
+                "id": "567",
+                "name": "益递物流",
+                "code": "edlogistics",
+                "pinyin": "yidiwuliu",
+                "firstChar": "Y",
+                "sort": 0
+            },
+            {
+                "id": "582",
+                "name": "英国(大包,EMS)",
+                "code": "england",
+                "pinyin": "yingguo(dabao,EMS)",
+                "firstChar": "Y",
+                "sort": 0
+            },
+            {
+                "id": "594",
+                "name": "优莎速运",
+                "code": "eusacn",
+                "pinyin": "youshasuyun",
+                "firstChar": "Y",
+                "sort": 0
+            },
+            {
+                "id": "633",
+                "name": "英脉物流",
+                "code": "gml",
+                "pinyin": "yingmaiwuliu",
+                "firstChar": "Y",
+                "sort": 0
+            },
+            {
+                "id": "669",
+                "name": "云邮跨境快递",
+                "code": "hkems",
+                "pinyin": "yunyoukuajingkuaidi",
+                "firstChar": "Y",
+                "sort": 0
+            },
+            {
+                "id": "710",
+                "name": "伊朗（Iran Post）",
+                "code": "iran",
+                "pinyin": "yilang（Iran Post）",
+                "firstChar": "Y",
+                "sort": 0
+            },
+            {
+                "id": "714",
+                "name": "牙买加（Jamaica Post）",
+                "code": "jamaicapost",
+                "pinyin": "yamaijia（Jamaica Post）",
+                "firstChar": "Y",
+                "sort": 0
+            },
+            {
+                "id": "76",
+                "name": "洋包裹",
+                "code": "yangbaoguo",
+                "pinyin": "yangbaoguo",
+                "firstChar": "Y",
+                "sort": 0
+            },
+            {
+                "id": "790",
+                "name": "优能物流",
+                "code": "mantoo",
+                "pinyin": "younengwuliu",
+                "firstChar": "Y",
+                "sort": 0
+            },
+            {
+                "id": "816",
+                "name": "亚欧专线",
+                "code": "nlebv",
+                "pinyin": "yaouzhuanxian",
+                "firstChar": "Y",
+                "sort": 0
+            },
+            {
+                "id": "85",
+                "name": "优速通达",
+                "code": "yousutongda",
+                "pinyin": "yousutongda",
+                "firstChar": "Y",
+                "sort": 0
+            },
+            {
+                "id": "90",
+                "name": "易客满",
+                "code": "ecmscn",
+                "pinyin": "yikeman",
+                "firstChar": "Y",
+                "sort": 0
+            },
+            {
+                "id": "915",
+                "name": "易普递",
+                "code": "sixroad",
+                "pinyin": "yipudi",
+                "firstChar": "Y",
+                "sort": 0
+            },
+            {
+                "id": "982",
+                "name": "越中国际物流",
+                "code": "vctrans",
+                "pinyin": "yuezhongguojiwuliu",
+                "firstChar": "Y",
+                "sort": 0
+            },
+            {
+                "id": "984",
+                "name": "鹰运国际速递",
+                "code": "vipexpress",
+                "pinyin": "yingyunguojisudi",
+                "firstChar": "Y",
+                "sort": 0
+            }
+        ]
+    },
+    {
+        "tag": "Z",
+        "list": [
+            {
+                "id": "106",
+                "name": "中铁物流",
+                "code": "zhongtiewuliu",
+                "pinyin": "zhongtiewuliu",
+                "firstChar": "Z",
+                "sort": 0
+            },
+            {
+                "id": "1063",
+                "name": "珠峰速运",
+                "code": "zf365",
+                "pinyin": "zhufengsuyun",
+                "firstChar": "Z",
+                "sort": 0
+            },
+            {
+                "id": "1066",
+                "name": "至诚通达快递",
+                "code": "zhichengtongda",
+                "pinyin": "zhichengtongdakuaidi",
+                "firstChar": "Z",
+                "sort": 0
+            },
+            {
+                "id": "1068",
+                "name": "中睿速递",
+                "code": "zhongruisudi",
+                "pinyin": "zhongruisudi",
+                "firstChar": "Z",
+                "sort": 0
+            },
+            {
+                "id": "1070",
+                "name": "中外运速递",
+                "code": "zhongwaiyun",
+                "pinyin": "zhongwaiyunsudi",
+                "firstChar": "Z",
+                "sort": 0
+            },
+            {
+                "id": "1072",
+                "name": "众派速递",
+                "code": "zhpex",
+                "pinyin": "zhongpaisudi",
+                "firstChar": "Z",
+                "sort": 0
+            },
+            {
+                "id": "1074",
+                "name": "振捷国际货运",
+                "code": "zjgj56",
+                "pinyin": "zhenjieguojihuoyun",
+                "firstChar": "Z",
+                "sort": 0
+            },
+            {
+                "id": "1077",
+                "name": "准实快运",
+                "code": "zsky123",
+                "pinyin": "zhunshikuaiyun",
+                "firstChar": "Z",
+                "sort": 0
+            },
+            {
+                "id": "115",
+                "name": "中通国际",
+                "code": "zhongtongguoji",
+                "pinyin": "zhongtongguoji",
+                "firstChar": "Z",
+                "sort": 0
+            },
+            {
+                "id": "126",
+                "name": "中环快递",
+                "code": "zhonghuan",
+                "pinyin": "zhonghuankuaidi",
+                "firstChar": "Z",
+                "sort": 0
+            },
+            {
+                "id": "139",
+                "name": "转运中国",
+                "code": "uszcn",
+                "pinyin": "zhuanyunzhongguo",
+                "firstChar": "Z",
+                "sort": 0
+            },
+            {
+                "id": "157",
+                "name": "卓志速运",
+                "code": "chinaicip",
+                "pinyin": "zhuozhisuyun",
+                "firstChar": "Z",
+                "sort": 0
+            },
+            {
+                "id": "174",
+                "name": "中粮鲜到家物流",
+                "code": "zlxdjwl",
+                "pinyin": "zhongliangxiandaojiawuliu",
+                "firstChar": "Z",
+                "sort": 0
+            },
+            {
+                "id": "179",
+                "name": "增速跨境 ",
+                "code": "zyzoom",
+                "pinyin": "zengsukuajing ",
+                "firstChar": "Z",
+                "sort": 0
+            },
+            {
+                "id": "192",
+                "name": "中通（带电话）",
+                "code": "zhongtongphone",
+                "pinyin": "zhongtong（daidianhua）",
+                "firstChar": "Z",
+                "sort": 0
+            },
+            {
+                "id": "224",
+                "name": "株式会社T.M.G",
+                "code": "tmg",
+                "pinyin": "zhushihuisheT.M.G",
+                "firstChar": "Z",
+                "sort": 0
+            },
+            {
+                "id": "275",
+                "name": "中澳速递",
+                "code": "cnausu",
+                "pinyin": "zhongaosudi",
+                "firstChar": "Z",
+                "sort": 0
+            },
+            {
+                "id": "309",
+                "name": "长宇物流",
+                "code": "changyuwuliu",
+                "pinyin": "zhangyuwuliu",
+                "firstChar": "Z",
+                "sort": 0
+            },
+            {
+                "id": "334",
+                "name": "中国香港(HongKong Post)英文",
+                "code": "hkposten",
+                "pinyin": "zhongguoxianggang(HongKong Post)yingwen",
+                "firstChar": "Z",
+                "sort": 0
+            },
+            {
+                "id": "352",
+                "name": "增益速递",
+                "code": "zengyisudi",
+                "pinyin": "zengyisudi",
+                "firstChar": "Z",
+                "sort": 0
+            },
+            {
+                "id": "362",
+                "name": "中联速递",
+                "code": "auvanda",
+                "pinyin": "zhongliansudi",
+                "firstChar": "Z",
+                "sort": 0
+            },
+            {
+                "id": "42",
+                "name": "转运四方",
+                "code": "zhuanyunsifang",
+                "pinyin": "zhuanyunsifang",
+                "firstChar": "Z",
+                "sort": 0
+            },
+            {
+                "id": "433",
+                "name": "纵通速运",
+                "code": "ynztsy",
+                "pinyin": "zongtongsuyun",
+                "firstChar": "Z",
+                "sort": 0
+            },
+            {
+                "id": "439",
+                "name": "智通物流",
+                "code": "ztong",
+                "pinyin": "zhitongwuliu",
+                "firstChar": "Z",
+                "sort": 0
+            },
+            {
+                "id": "491",
+                "name": "展勤快递",
+                "code": "byht",
+                "pinyin": "zhanqinkuaidi",
+                "firstChar": "Z",
+                "sort": 0
+            },
+            {
+                "id": "514",
+                "name": "中国香港骏辉物流",
+                "code": "chunfai",
+                "pinyin": "zhongguoxianggangjunhuiwuliu",
+                "firstChar": "Z",
+                "sort": 0
+            },
+            {
+                "id": "529",
+                "name": "中远e环球",
+                "code": "cosco",
+                "pinyin": "zhongyuanehuanqiu",
+                "firstChar": "Z",
+                "sort": 0
+            },
+            {
+                "id": "6",
+                "name": "中通快递",
+                "code": "zhongtong",
+                "pinyin": "zhongtongkuaidi",
+                "firstChar": "Z",
+                "sort": 0
+            },
+            {
+                "id": "630",
+                "name": "直布罗陀[英国]( Royal Gibraltar Post)",
+                "code": "gibraltar",
+                "pinyin": "zhibuluotuo[yingguo]( Royal Gibraltar Post)",
+                "firstChar": "Z",
+                "sort": 0
+            },
+            {
+                "id": "681",
+                "name": "卓烨快递",
+                "code": "hrbzykd",
+                "pinyin": "zhuoyekuaidi",
+                "firstChar": "Z",
+                "sort": 0
+            },
+            {
+                "id": "720",
+                "name": "泽西岛",
+                "code": "jerseypost",
+                "pinyin": "zexidao",
+                "firstChar": "Z",
+                "sort": 0
+            },
+            {
+                "id": "808",
+                "name": "中俄速通（淼信）",
+                "code": "mxe56",
+                "pinyin": "zhongesutong（miaoxin）",
+                "firstChar": "Z",
+                "sort": 0
+            },
+            {
+                "id": "882",
+                "name": "中加国际快递",
+                "code": "scic",
+                "pinyin": "zhongjiaguojikuaidi",
+                "firstChar": "Z",
+                "sort": 0
+            },
+            {
+                "id": "913",
+                "name": "中外运速递-中文",
+                "code": "sinoex",
+                "pinyin": "zhongwaiyunsudi-zhongwen",
+                "firstChar": "Z",
+                "sort": 0
+            },
+            {
+                "id": "93",
+                "name": "中外运",
+                "code": "esinotrans",
+                "pinyin": "zhongwaiyun",
+                "firstChar": "Z",
+                "sort": 0
+            }
+        ]
+    },
+    {
+        "tag": "#",
+        "list": [
+            {
+                "id": "996",
+                "name": "51跨境通",
+                "code": "wykjt",
+                "pinyin": "51kuajingtong",
+                "firstChar": "5",
+                "sort": 0
+            },
+            {
+                "id": "596",
+                "name": "7号速递",
+                "code": "express7th",
+                "pinyin": "7haosudi",
+                "firstChar": "7",
+                "sort": 0
+            }
+        ]
+    }
+]

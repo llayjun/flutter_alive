@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ClarityActionView">
+            <rect key="frame" x="0.0" y="0.0" width="339" height="100"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" tag="1" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="myx-UN-CRA">
+                    <rect key="frame" x="0.0" y="0.0" width="339" height="49.5"/>
+                    <color key="tintColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    <state key="normal" title="清晰">
+                        <color key="titleColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <state key="selected" title="清晰（已选）">
+                        <color key="titleColor" red="0.96470588239999999" green="0.21960784310000001" blue="0.1450980392" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="clarityChange:" destination="iN0-l3-epB" eventType="touchUpInside" id="Ce3-qM-OXJ"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ysv-R5-Sf5">
+                    <rect key="frame" x="0.0" y="49.5" width="339" height="1"/>
+                    <color key="backgroundColor" red="0.94117647058823528" green="0.94117647058823528" blue="0.94117647058823528" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="TLR-gT-v3G"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3uf-K6-3sn">
+                    <rect key="frame" x="0.0" y="50.5" width="339" height="49.5"/>
+                    <color key="tintColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    <state key="normal" title="流畅">
+                        <color key="titleColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <state key="selected" title="流畅（已选）">
+                        <color key="titleColor" red="0.96470588239999999" green="0.21960784310000001" blue="0.1450980392" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="clarityChange:" destination="iN0-l3-epB" eventType="touchUpInside" id="pss-BT-XN8"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="3uf-K6-3sn" firstAttribute="top" secondItem="Ysv-R5-Sf5" secondAttribute="bottom" id="B2l-lh-Pf3"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="Ysv-R5-Sf5" secondAttribute="trailing" id="BTT-Fn-tl1"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="3uf-K6-3sn" secondAttribute="trailing" id="Dvy-Ya-mTO"/>
+                <constraint firstAttribute="trailing" secondItem="myx-UN-CRA" secondAttribute="trailing" id="GRB-iH-XPf"/>
+                <constraint firstItem="Ysv-R5-Sf5" firstAttribute="top" secondItem="myx-UN-CRA" secondAttribute="bottom" id="Gbx-nM-Cal"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="3uf-K6-3sn" secondAttribute="bottom" id="WaT-ZZ-rgV"/>
+                <constraint firstItem="myx-UN-CRA" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="ZlN-X3-xyg"/>
+                <constraint firstItem="3uf-K6-3sn" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="gFC-gC-v69"/>
+                <constraint firstItem="Ysv-R5-Sf5" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="gmw-Qw-gfF"/>
+                <constraint firstItem="myx-UN-CRA" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="hwL-N8-aAm"/>
+                <constraint firstItem="Ysv-R5-Sf5" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="tCY-zs-EUv"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="96.376811594202906" y="-237.05357142857142"/>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <SurfaceView
+            android:id="@+id/surface_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <ImageView
+            android:id="@+id/exit"
+            android:layout_width="72pt"
+            android:layout_height="72pt"
+            android:layout_margin="35pt"
+            android:src="@mipmap/ic_back"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/camera"
+            android:layout_width="65pt"
+            android:layout_height="65pt"
+            android:layout_marginEnd="35pt"
+            android:src="@mipmap/ic_camera"
+            app:layout_constraintBottom_toBottomOf="@+id/exit"
+            app:layout_constraintEnd_toStartOf="@+id/setting_button"
+            app:layout_constraintTop_toTopOf="@+id/exit" />
+
+        <ImageView
+            android:id="@+id/setting_button"
+            android:layout_width="65pt"
+            android:layout_height="65pt"
+            android:layout_marginEnd="35pt"
+            android:src="@mipmap/ic_setting"
+            app:layout_constraintBottom_toBottomOf="@+id/exit"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/exit" />
+
+        <FrameLayout
+            android:id="@+id/frame_layout"
+            android:layout_width="0pt"
+            android:layout_height="400pt"
+            android:layout_marginBottom="100pt"
+            app:layout_constraintBottom_toTopOf="@+id/linear_bottom"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout="@layout/fragment_chat_info" />
+
+        <com.ruffian.library.widget.RTextView
+            android:id="@+id/rt_state"
+            android:layout_width="201pt"
+            android:layout_height="43pt"
+            android:layout_marginTop="57pt"
+            android:gravity="center"
+            android:text="未开始"
+            android:textColor="@color/color_FFFFFF"
+            android:textSize="26pt"
+            app:background_normal="@color/color_F63825"
+            app:corner_radius="6pt"
+            app:layout_constraintStart_toStartOf="@+id/exit"
+            app:layout_constraintTop_toBottomOf="@+id/exit" />
+
+        <com.ruffian.library.widget.RTextView
+            android:id="@+id/rt_like_num"
+            android:layout_width="202pt"
+            android:layout_height="43pt"
+            android:layout_marginTop="14pt"
+            android:gravity="center"
+            android:text="0 点赞"
+            android:textColor="@color/color_FFFFFF"
+            android:textSize="26pt"
+            android:visibility="invisible"
+            app:background_normal="@color/color_50000000"
+            app:corner_radius_top_right="6pt"
+            app:layout_constraintEnd_toEndOf="@+id/rt_state"
+            app:layout_constraintStart_toStartOf="@+id/rt_state"
+            app:layout_constraintTop_toBottomOf="@+id/rt_state" />
+
+        <com.czh.tvmerchantapp.live.push.java.view.ProductFrameView
+            android:id="@+id/product_frame_view"
+            android:layout_width="201pt"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28pt"
+            app:layout_constraintEnd_toEndOf="@+id/rt_state"
+            app:layout_constraintStart_toStartOf="@+id/rt_state"
+            app:layout_constraintTop_toBottomOf="@+id/rt_like_num" />
+
+        <LinearLayout
+            android:id="@+id/linear_bottom"
+            android:layout_width="0pt"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingStart="34pt"
+            android:background="@color/color_50000000"
+            android:paddingTop="20pt"
+            android:paddingEnd="46pt"
+            android:paddingBottom="30pt"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/product_show"
+                android:layout_width="115pt"
+                android:layout_height="129pt"
+                android:background="@mipmap/ic_red_package">
+
+                <TextView
+                    android:id="@+id/tv_package_num"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="22pt"
+                    android:textColor="@color/color_FFFFFF"
+                    android:textSize="43pt"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:text="100" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <com.ruffian.library.widget.RTextView
+                android:id="@+id/rt_data"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="37pt"
+                android:gravity="center"
+                android:text="数据"
+                android:textColor="@color/color_FFFFFF"
+                android:textSize="26pt"
+                app:icon_direction="top"
+                app:icon_height="95pt"
+                app:icon_src_normal="@mipmap/ic_data"
+                app:icon_width="95pt" />
+
+            <com.ruffian.library.widget.RTextView
+                android:id="@+id/rt_share"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="37pt"
+                android:gravity="center"
+                android:text="分享"
+                android:textColor="@color/color_FFFFFF"
+                android:textSize="26pt"
+                app:icon_direction="top"
+                app:icon_height="95pt"
+                app:icon_src_normal="@mipmap/ic_share"
+                app:icon_width="95pt" />
+
+            <Space
+                android:layout_width="0pt"
+                android:layout_height="0pt"
+                android:layout_weight="1" />
+
+            <com.ruffian.library.widget.RTextView
+                android:id="@+id/rt_open"
+                android:layout_width="259pt"
+                android:layout_height="95pt"
+                android:gravity="center"
+                android:text="开始直播"
+                android:textColor="@color/color_FFFFFF"
+                android:textSize="43pt"
+                app:background_normal="@color/color_F95259"
+                app:corner_radius="48pt" />
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

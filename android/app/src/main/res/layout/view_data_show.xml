@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linear_root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <com.ruffian.library.widget.RConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="793pt"
+        android:background="@color/color_FFFFFF"
+        app:background_normal="@color/color_FFFFFF"
+        app:corner_radius_top_left="29pt"
+        app:corner_radius_top_right="29pt">
+
+        <TextView
+            android:id="@+id/tv_alive_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60pt"
+            android:layout_marginTop="60pt"
+            android:text="直播累计情况"
+            android:textColor="@color/color_333333"
+            android:textSize="49pt"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_net_state"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="23pt"
+            android:textColor="@color/color_999999"
+            android:textSize="29pt"
+            app:layout_constraintBottom_toBottomOf="@+id/tv_alive_info"
+            app:layout_constraintStart_toEndOf="@+id/tv_alive_info"
+            tools:text="网络情况：良好" />
+
+        <ImageView
+            android:id="@+id/iv_close"
+            android:layout_width="57pt"
+            android:padding="10pt"
+            android:layout_height="57pt"
+            android:layout_marginEnd="60pt"
+            android:src="@mipmap/ic_close_x"
+            app:layout_constraintBottom_toBottomOf="@+id/tv_alive_info"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/tv_alive_info" />
+
+        <View
+            android:id="@+id/view_line_1"
+            android:layout_width="0pt"
+            android:layout_height="1pt"
+            android:layout_marginStart="37pt"
+            android:layout_marginTop="60pt"
+            android:layout_marginEnd="37pt"
+            android:background="@color/color_959595"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_alive_info" />
+
+        <TextView
+            android:id="@+id/tv_total_see_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60pt"
+            android:layout_marginTop="60pt"
+            android:text="累计观看"
+            android:textColor="@color/color_999999"
+            android:textSize="35pt"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view_line_1" />
+
+        <TextView
+            android:id="@+id/tv_total_see_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10pt"
+            android:textColor="@color/color_333333"
+            android:textSize="58pt"
+            app:layout_constraintEnd_toEndOf="@+id/tv_total_see_text"
+            app:layout_constraintStart_toStartOf="@+id/tv_total_see_text"
+            app:layout_constraintTop_toBottomOf="@+id/tv_total_see_text"
+            android:text="0" />
+
+        <TextView
+            android:id="@+id/tv_current_see_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="305pt"
+            android:text="当前在线"
+            android:textColor="@color/color_999999"
+            android:textSize="35pt"
+            app:layout_constraintStart_toEndOf="@+id/tv_total_see_text"
+            app:layout_constraintTop_toTopOf="@+id/tv_total_see_text" />
+
+        <TextView
+            android:id="@+id/tv_current_see_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10pt"
+            android:textColor="@color/color_333333"
+            android:textSize="58pt"
+            app:layout_constraintEnd_toEndOf="@+id/tv_current_see_text"
+            app:layout_constraintStart_toStartOf="@+id/tv_current_see_text"
+            app:layout_constraintTop_toBottomOf="@+id/tv_current_see_text"
+            android:text="0" />
+
+        <View
+            android:id="@+id/view_line_2"
+            android:layout_width="0pt"
+            android:layout_height="1pt"
+            android:layout_marginStart="37pt"
+            android:layout_marginTop="60pt"
+            android:layout_marginEnd="37pt"
+            android:background="@color/color_959595"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_total_see_num" />
+
+        <TextView
+            android:id="@+id/tv_active_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60pt"
+            android:layout_marginTop="60pt"
+            android:text="累计互动"
+            android:textColor="@color/color_999999"
+            android:textSize="35pt"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view_line_2" />
+
+        <TextView
+            android:id="@+id/tv_active_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10pt"
+            android:textColor="@color/color_333333"
+            android:textSize="58pt"
+            app:layout_constraintEnd_toEndOf="@+id/tv_active_text"
+            app:layout_constraintStart_toStartOf="@+id/tv_active_text"
+            app:layout_constraintTop_toBottomOf="@+id/tv_active_text"
+            android:text="0" />
+
+        <TextView
+            android:id="@+id/tv_product_click_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="累计商品点击"
+            android:textColor="@color/color_999999"
+            android:textSize="35pt"
+            app:layout_constraintEnd_toEndOf="@+id/tv_current_see_text"
+            app:layout_constraintStart_toStartOf="@+id/tv_current_see_text"
+            app:layout_constraintTop_toTopOf="@+id/tv_active_text" />
+
+        <TextView
+            android:id="@+id/tv_product_click_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10pt"
+            android:textColor="@color/color_333333"
+            android:textSize="58pt"
+            app:layout_constraintEnd_toEndOf="@+id/tv_product_click_text"
+            app:layout_constraintStart_toStartOf="@+id/tv_product_click_text"
+            app:layout_constraintTop_toBottomOf="@+id/tv_product_click_text"
+            android:text="0" />
+
+        <View
+            android:id="@+id/view_line_3"
+            android:layout_width="0pt"
+            android:layout_height="1pt"
+            android:layout_marginStart="37pt"
+            android:layout_marginTop="60pt"
+            android:layout_marginEnd="37pt"
+            android:background="@color/color_959595"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_active_num" />
+
+    </com.ruffian.library.widget.RConstraintLayout>
+
+</LinearLayout>

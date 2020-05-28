@@ -1,0 +1,176 @@
+def localProperties = new Properties()
+def localPropertiesFile = rootProject.file('local.properties')
+if (localPropertiesFile.exists()) {
+    localPropertiesFile.withReader('UTF-8') { reader ->
+        localProperties.load(reader)
+    }
+}
+
+def flutterRoot = localProperties.getProperty('flutter.sdk')
+if (flutterRoot == null) {
+    throw new GradleException("Flutter SDK not found. Define location with flutter.sdk in the local.properties file.")
+}
+
+def flutterVersionCode = localProperties.getProperty('flutter.versionCode')
+if (flutterVersionCode == null) {
+    flutterVersionCode = '1'
+}
+
+def flutterVersionName = localProperties.getProperty('flutter.versionName')
+if (flutterVersionName == null) {
+    flutterVersionName = '1.0'
+}
+
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
+
+def keystoreProperties = new Properties()
+def keystorePropertiesFile = rootProject.file('app/key.properties')
+if (keystorePropertiesFile.exists()) {
+    keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
+}
+
+android {
+    compileSdkVersion 29
+
+    defaultConfig {
+        // TODO: Specify your own unique Application ID
+        applicationId "com.czh.tvmerchantapp"
+        minSdkVersion 19
+        targetSdkVersion 28
+        versionCode flutterVersionCode.toInteger()
+        versionName flutterVersionName
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        multiDexEnabled true
+//        ndk {
+//            //选择要添加的so库。
+//            abiFilters "armeabi-v7a", "arm64-v8a"
+//        }
+    }
+
+    signingConfigs {
+        release {
+            keyAlias keystoreProperties['keyAlias']
+            keyPassword keystoreProperties['keyPassword']
+            storeFile file(keystoreProperties['storeFile'])
+            storePassword keystoreProperties['storePassword']
+        }
+    }
+    buildTypes {
+        debug {
+            debuggable true
+            minifyEnabled false
+            signingConfig signingConfigs.release
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        release {
+            minifyEnabled false
+            shrinkResources false
+            signingConfig signingConfigs.release
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    packagingOptions {
+        exclude 'META-INF/DEPENDENCIES'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/license.txt'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/NOTICE.txt'
+        exclude 'META-INF/notice.txt'
+        exclude 'META-INF/ASL2.0'
+        exclude("META-INF/*.kotlin_module")
+        exclude 'res/values/values.xml'
+        exclude 'classes.jar'
+        exclude 'AndroidManifest.xml'
+        exclude 'R.txt'
+    }
+
+    publishNonDefault true
+
+    lintOptions {
+        disable 'InvalidPackage'
+        checkReleaseBuilds false
+        abortOnError false
+        disable 'MissingTranslation'
+    }
+
+    allprojects {
+        repositories {
+            jcenter()
+            flatDir {
+                dirs 'src/main/libs'
+            }
+        }
+    }
+
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['src/main/jniLibs']
+        }
+    }
+
+    // DataBinding
+    dataBinding {
+        //noinspection DataBindingWithoutKapt
+        enabled true
+    }
+}
+
+flutter {
+    source '../..'
+}
+
+dependencies {
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test:runner:1.1.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.0'
+    implementation fileTree(include: ['*.jar'], dir: 'src/main/libs')
+    implementation fileTree(include: ['*.aar'], dir: 'src/main/libs')
+    implementation 'androidx.annotation:annotation:1.1.0'
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    // kotlin
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'androidx.recyclerview:recyclerview:1.1.0'
+    implementation 'com.acker:simplezxing:1.5'
+    implementation 'com.google.code.gson:gson:2.8.5'
+    implementation 'androidx.multidex:multidex:2.0.1'
+    // permission
+    implementation 'com.github.tbruyelle:rxpermissions:0.10.2'
+    implementation 'io.reactivex.rxjava2:rxjava:2.2.8'
+    implementation 'io.reactivex.rxjava2:rxandroid:2.1.1'
+    // layout
+    implementation 'com.android.support.constraint:constraint-layout:1.1.3'
+    // fuel
+    //Android使用
+    implementation 'com.github.kittinunf.fuel:fuel-android:2.2.1'
+    //Gson解析
+    implementation 'com.github.kittinunf.fuel:fuel-gson:2.2.1'
+    // socket io
+    implementation ('io.socket:socket.io-client:1.0.0') {
+        exclude group: 'org.json', module: 'json'
+    }
+    // RWidgetHelper
+    implementation 'com.ruffian.library:RWidgetHelper-AndroidX:0.0.2'
+    // utils
+    implementation 'com.blankj:utilcodex:1.26.0'
+    // baseRecycle
+    implementation 'com.github.CymChad:BaseRecyclerViewAdapterHelper:3.0.1'
+    // FlycoTabLayout_Lib
+    implementation 'com.flyco.tablayout:FlycoTabLayout_Lib:2.1.2@aar'
+    // glide
+    implementation ("com.github.bumptech.glide:glide:4.11.0") {
+        exclude group: "com.android.support"
+    }
+    // lifecycle contain ViewModel和LiveData
+    implementation 'android.arch.lifecycle:extensions:1.1.1'
+    // eventsbus
+    implementation 'org.greenrobot:eventbus:3.2.0'
+    // 友盟
+    implementation  'com.umeng.umsdk:analytics:8.0.0'
+    implementation  'com.umeng.umsdk:common:2.0.0'
+}

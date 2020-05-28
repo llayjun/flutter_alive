@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linear_root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <com.ruffian.library.widget.RConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="1175pt"
+        android:background="@color/color_FFFFFF"
+        app:background_normal="@color/color_FFFFFF"
+        app:corner_radius_top_left="29pt"
+        app:corner_radius_top_right="29pt">
+
+        <com.flyco.tablayout.SlidingTabLayout
+            android:id="@+id/sliding_tab_layout"
+            android:layout_width="match_parent"
+            android:layout_height="130pt"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:tl_indicator_color="@color/color_F63825"
+            app:tl_indicator_height="6pt"
+            app:tl_indicator_width="56pt"
+            app:tl_textSelectColor="@color/color_F63825"
+            app:tl_textUnselectColor="@color/color_666666" />
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/view_pager"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/sliding_tab_layout" />
+
+    </com.ruffian.library.widget.RConstraintLayout>
+
+</LinearLayout>

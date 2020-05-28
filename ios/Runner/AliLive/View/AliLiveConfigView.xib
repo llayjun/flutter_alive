@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment version="2304" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="AliLiveConfigView">
+            <rect key="frame" x="0.0" y="0.0" width="388" height="58"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button hidden="YES" opaque="NO" tag="100" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DTt-ah-hex">
+                    <rect key="frame" x="133" y="9" width="40" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="40" id="azx-Z8-M5t"/>
+                        <constraint firstAttribute="height" constant="40" id="d78-fV-gKI"/>
+                    </constraints>
+                    <state key="normal" image="record_beauty"/>
+                    <state key="selected" image="record_beauty_on"/>
+                    <connections>
+                        <action selector="configClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="rWr-D1-KOJ"/>
+                    </connections>
+                </button>
+                <button hidden="YES" opaque="NO" tag="101" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CAf-Oz-XbM">
+                    <rect key="frame" x="183" y="9" width="40" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="0ul-us-0MN"/>
+                        <constraint firstAttribute="width" constant="40" id="dUm-R3-iE4"/>
+                    </constraints>
+                    <state key="normal" image="music_button"/>
+                    <state key="selected" image="music_button"/>
+                    <connections>
+                        <action selector="configClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="pjG-6c-SYO"/>
+                    </connections>
+                </button>
+                <button hidden="YES" opaque="NO" tag="102" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GiX-BS-Thn">
+                    <rect key="frame" x="233" y="9" width="40" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="40" id="915-lW-lcc"/>
+                        <constraint firstAttribute="height" constant="40" id="nK4-jH-W3w"/>
+                    </constraints>
+                    <state key="normal" image="camera_flash_close"/>
+                    <state key="selected" image="camera_flash_on"/>
+                    <connections>
+                        <action selector="configClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="SkJ-kH-mmg"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="103" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Cv-2c-Trr">
+                    <rect key="frame" x="283" y="9" width="40" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="40" id="Dkf-ra-GnY"/>
+                        <constraint firstAttribute="height" constant="40" id="yEX-bf-eSI"/>
+                    </constraints>
+                    <state key="normal" image="camera_id"/>
+                    <state key="selected" image="camera_id"/>
+                    <connections>
+                        <action selector="configClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="fVQ-OC-bDm"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="104" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6iC-up-dAy">
+                    <rect key="frame" x="333" y="9" width="40" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="4dF-q4-QUV"/>
+                        <constraint firstAttribute="width" constant="40" id="GMK-av-lVA"/>
+                    </constraints>
+                    <state key="normal" image="white_setting"/>
+                    <connections>
+                        <action selector="configClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="PBE-BR-CCz"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="DTt-ah-hex" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="960-iN-DtP"/>
+                <constraint firstItem="GiX-BS-Thn" firstAttribute="leading" secondItem="CAf-Oz-XbM" secondAttribute="trailing" constant="10" id="9nJ-2e-aZX"/>
+                <constraint firstItem="1Cv-2c-Trr" firstAttribute="centerY" secondItem="6iC-up-dAy" secondAttribute="centerY" id="KwR-pT-aNO"/>
+                <constraint firstItem="6iC-up-dAy" firstAttribute="leading" secondItem="1Cv-2c-Trr" secondAttribute="trailing" constant="10" id="Mgs-AO-bcT"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="6iC-up-dAy" secondAttribute="trailing" constant="15" id="SjI-SN-CLW"/>
+                <constraint firstItem="1Cv-2c-Trr" firstAttribute="leading" secondItem="GiX-BS-Thn" secondAttribute="trailing" constant="10" id="b2L-Rb-jgy"/>
+                <constraint firstItem="CAf-Oz-XbM" firstAttribute="leading" secondItem="DTt-ah-hex" secondAttribute="trailing" constant="10" id="bRS-n5-4c8"/>
+                <constraint firstItem="CAf-Oz-XbM" firstAttribute="centerY" secondItem="GiX-BS-Thn" secondAttribute="centerY" id="fgk-fH-LIz"/>
+                <constraint firstItem="GiX-BS-Thn" firstAttribute="centerY" secondItem="1Cv-2c-Trr" secondAttribute="centerY" id="fhy-oE-O23"/>
+                <constraint firstItem="6iC-up-dAy" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="pDR-N1-k20"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="68.115942028985515" y="-172.76785714285714"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="camera_flash_close" width="40" height="40"/>
+        <image name="camera_flash_on" width="40" height="40"/>
+        <image name="camera_id" width="22.5" height="19"/>
+        <image name="music_button" width="40" height="40"/>
+        <image name="record_beauty" width="40" height="40"/>
+        <image name="record_beauty_on" width="40" height="40"/>
+        <image name="white_setting" width="22.5" height="21"/>
+    </resources>
+</document>

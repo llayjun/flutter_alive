@@ -1,0 +1,49 @@
+//
+//  PrefixHeader.pch
+//  Runner
+//
+//  Created by 张智慧 on 2020/2/18.
+//  Copyright © 2020 The Chromium Authors. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import <Flutter/Flutter.h>
+#import <MJExtension/MJExtension.h>
+#import <ReactiveObjC.h>
+#import <TYAlertController.h>
+#import <UIView+TYAlertView.h>
+#import <TYPagerController.h>
+#import <SDWebImage/SDWebImage.h>
+#import <UMCommon/UMCommon.h>
+
+#import "BoardMacro.h"
+#import "BoardCastURL.h"
+
+#import "BaseNavigationController.h"
+#import "BaseViewController.h"
+#import "RequestManager.h"
+#import "CycleTakePhotoView.h"
+
+#import "UIViewController+BaseAction.h"
+#import "UIView+Extension.h"
+#import "UIButton+ImageTitleSpacing.h"
+#import "UIColor+ColorChange.h"
+#import "CALayer+ZZXibBorderColor.h"
+#import "NSString+Filter.h"
+
+#import "ChannelTool.h"
+#import "ZZProgress.h"
+#import "ClassMethod.h"
+
+#import "AliLiveModel.h"
+
+#import "Runner-Bridging-Header.h"
+
+#import <fluwx_no_pay/fluwx_no_pay-umbrella.h>
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */

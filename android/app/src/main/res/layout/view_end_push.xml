@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_50000000">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/tv_top_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="本次直播你共收获了"
+            android:textColor="@color/color_FFFFFF"
+            android:textSize="46pt"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_see_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80pt"
+            android:textColor="@color/color_FFFFFF"
+            android:textSize="115pt"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_top_text"
+            android:text="0" />
+
+        <TextView
+            android:id="@+id/tv_see_num_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="观看数"
+            android:textColor="@color/color_FFFFFF"
+            android:textSize="43pt"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_see_num" />
+
+        <TextView
+            android:id="@+id/tv_zan_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80pt"
+            android:textColor="@color/color_FFFFFF"
+            android:textSize="115pt"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_see_num_text"
+            android:text="0" />
+
+        <TextView
+            android:id="@+id/tv_zan_num_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="个赞"
+            android:textColor="@color/color_FFFFFF"
+            android:textSize="43pt"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_zan_num" />
+
+        <com.ruffian.library.widget.RTextView
+            android:id="@+id/rt_resume"
+            android:layout_width="490pt"
+            android:layout_height="115pt"
+            android:layout_marginTop="200pt"
+            android:gravity="center"
+            android:text="继续直播"
+            android:textColor="@color/color_FFFFFF"
+            android:textSize="49pt"
+            app:background_normal="@color/color_F95259"
+            app:corner_radius="58pt"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_zan_num_text" />
+
+        <com.ruffian.library.widget.RTextView
+            android:id="@+id/rt_stop"
+            android:layout_width="490pt"
+            android:layout_height="115pt"
+            android:layout_marginTop="29pt"
+            android:gravity="center"
+            android:text="确认结束"
+            android:textColor="@color/color_F95259"
+            android:textSize="49pt"
+            app:background_normal="@color/color_FFFFFF"
+            app:corner_radius="58pt"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/rt_resume" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

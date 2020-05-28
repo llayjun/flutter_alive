@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <SurfaceView
+        android:id="@+id/preview_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!--<FrameLayout-->
+    <!--android:id="@+id/publisher_fragment"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:visibility="gone"/>-->
+
+    <Button
+        android:id="@+id/button_start"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="开始直播" />
+
+</RelativeLayout>
